@@ -1,0 +1,30 @@
+a:14:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:52:"/Chiara_PEAR_Server_REST/p/netzarbeiter_logincatalog";}s:8:"_content";s:25:"Netzarbeiter_LoginCatalog";}s:1:"c";s:37:"connect.magentocommerce.com/community";s:1:"v";s:5:"1.0.9";s:2:"st";s:6:"stable";s:1:"l";s:8:"OSL v3.0";s:1:"m";s:12:"magentoadmin";s:1:"s";s:238:"This small extension requires a customer to be logged in order to view products or product collections.
+If the customer navigates to a page that contains a product or a product collection, she will be
+redirected to the account login page.";s:1:"d";s:717:"This small extension requires a customer to be logged in order to view products or product collections.
+If the customer navigates to a page that contains a product or a product collection, she will be
+redirected to the account login page.
+
+This Module was designed to work with the Module Netzarbeiter_CustomerActivation, which
+only allows customers to log in after they have been activated in the adminhtml interface.
+There also is the Netzarbeiter_GroupsCatalog extension which allows you to hide Categories
+and/or groups depending on the customers groups. Installing this extension together with
+the Customer Groups Catalog Extension will probably make no sense, so you have to decide
+what suits your needs better.";s:2:"da";s:19:"2009-03-06 09:39:35";s:1:"n";s:982:"This small extension requires a customer to be logged in order to view products or product collections.
+If the customer navigates to a page that contains a product or a product collection, she will be
+redirected to the account login page.
+
+This Module was designed to work with the Module Netzarbeiter_CustomerActivation, which
+only allows customers to log in after they have been activated in the adminhtml interface.
+There also is the Netzarbeiter_GroupsCatalog extension which allows you to hide Categories
+and/or groups depending on the customers groups. Installing this extension together with
+the Customer Groups Catalog Extension will probably make no sense, so you have to decide
+what suits your needs better.
+
+
+The configuration for this module can be found in
+System > Configuration > Catalog > Login only catalog
+
+There you can disable the module on a global/website/store basis, and also choose to
+hide the category navigation.
+
+Thanks to SeL for the french translation!";s:1:"f";s:4:"4996";s:1:"g";s:80:"http://connect.magentocommerce.com/community/get/Netzarbeiter_LoginCatalog-1.0.9";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.0.9.xml";}}}

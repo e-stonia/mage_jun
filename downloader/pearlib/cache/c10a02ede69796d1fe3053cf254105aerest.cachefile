@@ -1,0 +1,31 @@
+a:9:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:25:"Netzarbeiter_LoginCatalog";s:1:"c";s:37:"connect.magentocommerce.com/community";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:34:"/Chiara_PEAR_Server_REST/c/Default";}s:8:"_content";s:7:"Default";}s:1:"l";s:27:"Open Software License (OSL)";s:2:"lu";s:42:"http://opensource.org/licenses/osl-3.0.php";s:1:"s";s:103:"This small extension requires a customer to be logged in order to view products or product collections.";s:1:"d";s:1629:"This small extension requires a customer to be logged in order to view products or product collections.
+If the customer navigates to a page that contains a product or a product collection, she will be
+redirected to the account login page.
+
+This extension has been reported as working with Magento v1.4
+
+This Module was designed to work with the Extension Netzarbeiter_CustomerActivation, which only allows customers to log in after they have been activated in the adminhtml interface.
+There also is the Netzarbeiter_GroupsCatalog extension which allows you to hide Categories
+and/or groups depending on the customers groups. Installing this extension together with
+the Customer Groups Catalog Extension will probably make no sense, so you have to decide
+what suits your needs better.
+
+The configuration for this module can be found in
+System > Configuration > Catalog > Login only catalog
+
+There you can disable the module on a global/website/store basis, and also choose to
+hide the category navigation.
+
+KNOWN BUGS:
+- Advanced search result page redirect broken (thanks to John Quinones for reporting)
+
+Thanks to SeL for the french translation!
+Thanks to kimpecov (http://www.magentocommerce.com/boards/viewthread/16743/) for the great addition.
+
+Release 1.0.9: fix the API when the module is enabled
+Release 1.0.8: declared stable
+Release 1.0.7beta: compatibility with magento 1.1.7
+Release 1.0.6beta: make navigation block caching compatible with GroupsCatalog extension.
+
+If you have ideas for improvements or find bugs, please send them to vinai@netzarbeiter.com,
+with Netzarbeiter_LoginCatalog as part of the subject line.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:52:"/Chiara_PEAR_Server_REST/r/Netzarbeiter_LoginCatalog";}}}

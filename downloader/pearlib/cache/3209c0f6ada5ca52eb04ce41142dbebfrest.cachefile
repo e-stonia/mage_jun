@@ -1,0 +1,33 @@
+a:14:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:54:"/Chiara_PEAR_Server_REST/p/slandsbek_simpleorderexport";}s:8:"_content";s:27:"SLandsbek_SimpleOrderExport";}s:1:"c";s:37:"connect.magentocommerce.com/community";s:1:"v";s:5:"1.0.4";s:2:"st";s:6:"stable";s:1:"l";s:11:"MIT License";s:1:"m";s:12:"magentoadmin";s:1:"s";s:30:"Exports complete orders to csv";s:1:"d";s:1608:"This extension makes it possible to export orders to csv files. You can select the orders you want to export in the sales orders grid and start the export process by simply selecting "Export to .csv file" from the actions dropdown (see screenshots). After exporting you can directly download the csv file to your computer. The files also gets saved in the folder "var/export" in your magento installation. 
+
+All relevant order data, order totals, shipping address, billing address and ordered items get exported. If an order contains multiple items, a new record is created for each ordered item in the csv file. 
+In detail these fields get created in the csv file:
+Order Number, Order Date, Order Status, Order Purchased From, Order Payment Method, Order Shipping Method, Order Subtotal, Order Tax, Order Shipping, Order Discount, Order Grand Total, Order Paid, Order Refunded, Order Due, Total Qty Items Ordered, Customer Name, Customer Email, Shipping Name, Shipping Company, Shipping Street, Shipping Zip, Shipping City, Shipping State, Shipping State Name, Shipping Country, Shipping Country Name, Shipping Phone Number, Billing Name, Billing Company, Billing Street, Billing Zip, Billing City, Billing State, Billing State Name, Billing Country, Billing Country Name, Billing Phone Number, Order Item Increment, Item Name, Item Status, Item SKU, Item Options, Item Original Price, Item Price, Item Qty Ordered, Item Qty Invoiced, Item Qty Shipped, Item Qty Canceled, Item Qty Refunded, Item Tax, Item Discount, Item Total.
+
+The data is UTF-8 encoded, delimited by commas (,) and enclosed by quotes (").";s:2:"da";s:19:"2010-06-26 03:20:05";s:1:"n";s:1046:"Changelog 1.0.3 - 1.0.4:
+
+- Append option to export to csv to mass action select box by observing event to prevent conflicts with other extensions extending the select box
+
+Changelog 1.0.2 - 1.0.3:
+
+- Added phone number of shipping address to export
+- Added phone number of billing address to export
+
+Changelog 1.0.1 - 1.0.2:
+
+- Bugfix: Ignore shipping address if order is virtual
+- Added item increment number to export
+- Added full name of shipping address country to export
+- Added full name of billing address country to export
+- Added code of shipping address state to export
+- Added full name of shipping address state to export
+- Added code of billing address state to export
+- Added full name of billing address state to export
+- Added total qty of ordered items to export
+- Added customer name to export
+- Added customer email to export
+- Added item qty invoiced to export
+- Added item qty shipped to export
+- Added item qty canceled to export
+- Added item qty refunded to export
+- Renamed column "Item Ordered Qty" to "Item Qty Ordered"";s:1:"f";s:4:"9735";s:1:"g";s:82:"http://connect.magentocommerce.com/community/get/SLandsbek_SimpleOrderExport-1.0.4";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.0.4.xml";}}}

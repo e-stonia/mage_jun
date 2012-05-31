@@ -1,0 +1,9 @@
+a:9:{s:7:"attribs";a:2:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:14:"product_import";s:1:"c";s:37:"connect.magentocommerce.com/community";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:34:"/Chiara_PEAR_Server_REST/c/Default";}s:8:"_content";s:7:"Default";}s:1:"l";s:27:"Open Software License (OSL)";s:2:"lu";s:42:"http://opensource.org/licenses/osl-3.0.php";s:1:"s";s:40:"Import product with category and gallery";s:1:"d";s:867:"Import category product and gallery
+There are three import tools readily available.
+1) Import complete Product Data with complete image gallery
+2) Import complete product data as well as categories. Nested categories will automatically be created. Ex if ou give a category structure like "Sports/football" a category named sports as well as subcategory named football will get automatically created and the product will get assigned to "football" category. Details provided in documentation.
+3)Import image gallery for existing products. Just creeate two columns one for sku and another for image gallery. Image gallery will be created for the product but will skip the record if no product exist for the sku. Details to be given in documentation.
+<strong>
+User manual or documentation available from 
+http://www.magentocommerce.com/boards/viewthread/76922/
+</strong>";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:41:"/Chiara_PEAR_Server_REST/r/product_import";}}}

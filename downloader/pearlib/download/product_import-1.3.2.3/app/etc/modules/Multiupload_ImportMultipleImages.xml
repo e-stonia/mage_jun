@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Multiupload_ImportMultipleImages>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Multiupload_ImportMultipleImages>
+    </modules>
+</config>
