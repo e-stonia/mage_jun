@@ -1180,3 +1180,913 @@
 2011-11-11T04:59:20+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
 2011-11-11T04:59:20+00:00 DEBUG (7): Import Completed
 2011-11-11T04:59:20+00:00 DEBUG (7): File copied
+2011-11-12T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-12T04:59:16+00:00 DEBUG (7): 20 - Completed!!
+2011-11-12T04:59:22+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-12T04:59:22+00:00 DEBUG (7): Found 30 rows.
+2011-11-12T04:59:22+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-12T04:59:22+00:00 DEBUG (7): Import Completed
+2011-11-12T04:59:22+00:00 DEBUG (7): File copied
+2011-11-13T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-13T04:59:02+00:00 DEBUG (7): Import Completed
+2011-11-13T04:59:02+00:00 DEBUG (7): File not copied
+2011-11-14T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-14T04:59:02+00:00 DEBUG (7): Import Completed
+2011-11-14T04:59:02+00:00 DEBUG (7): File not copied
+2011-11-15T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-15T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-15T04:59:09+00:00 DEBUG (7): Found 9 rows.
+2011-11-15T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-15T04:59:09+00:00 DEBUG (7): Import Completed
+2011-11-15T04:59:09+00:00 DEBUG (7): File copied
+2011-11-16T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-16T04:59:02+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-16T04:59:02+00:00 DEBUG (7): Found 0 rows.
+2011-11-16T04:59:02+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-16T04:59:02+00:00 DEBUG (7): Import Completed
+2011-11-16T04:59:02+00:00 DEBUG (7): File copied
+2011-11-18T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-18T04:59:15+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-18T04:59:15+00:00 DEBUG (7): Found 19 rows.
+2011-11-18T04:59:15+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-18T04:59:15+00:00 DEBUG (7): Import Completed
+2011-11-18T04:59:15+00:00 DEBUG (7): File copied
+2011-11-19T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-19T04:59:15+00:00 DEBUG (7): 20 - Completed!!
+2011-11-19T04:59:28+00:00 DEBUG (7): 40 - Completed!!
+2011-11-19T04:59:40+00:00 DEBUG (7): 60 - Completed!!
+2011-11-19T04:59:52+00:00 DEBUG (7): 80 - Completed!!
+2011-11-19T05:00:03+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-19T05:00:03+00:00 DEBUG (7): Found 98 rows.
+2011-11-19T05:00:03+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-19T05:00:03+00:00 DEBUG (7): Import Completed
+2011-11-19T05:00:03+00:00 DEBUG (7): File copied
+2011-11-20T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-20T04:59:01+00:00 DEBUG (7): Import Completed
+2011-11-20T04:59:01+00:00 DEBUG (7): File not copied
+2011-11-21T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-21T04:59:01+00:00 DEBUG (7): Import Completed
+2011-11-21T04:59:01+00:00 DEBUG (7): File not copied
+2011-11-22T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-22T04:59:05+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-22T04:59:05+00:00 DEBUG (7): Found 3 rows.
+2011-11-22T04:59:05+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-22T04:59:05+00:00 DEBUG (7): Import Completed
+2011-11-22T04:59:05+00:00 DEBUG (7): File copied
+2011-11-23T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-23T04:59:15+00:00 DEBUG (7): 20 - Completed!!
+2011-11-23T04:59:28+00:00 DEBUG (7): 40 - Completed!!
+2011-11-23T04:59:29+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-23T04:59:29+00:00 DEBUG (7): Found 41 rows.
+2011-11-23T04:59:29+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-23T04:59:29+00:00 DEBUG (7): Import Completed
+2011-11-23T04:59:29+00:00 DEBUG (7): File copied
+2011-11-24T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-24T04:59:12+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-24T04:59:12+00:00 DEBUG (7): Found 13 rows.
+2011-11-24T04:59:12+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-24T04:59:12+00:00 DEBUG (7): Import Completed
+2011-11-24T04:59:12+00:00 DEBUG (7): File copied
+2011-11-25T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-25T04:59:15+00:00 DEBUG (7): 20 - Completed!!
+2011-11-25T04:59:21+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-25T04:59:21+00:00 DEBUG (7): Found 29 rows.
+2011-11-25T04:59:21+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-25T04:59:21+00:00 DEBUG (7): Import Completed
+2011-11-25T04:59:21+00:00 DEBUG (7): File copied
+2011-11-26T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-26T04:59:02+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-26T04:59:02+00:00 DEBUG (7): Found 0 rows.
+2011-11-26T04:59:02+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-26T04:59:02+00:00 DEBUG (7): Import Completed
+2011-11-26T04:59:02+00:00 DEBUG (7): File copied
+2011-11-27T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-27T04:59:01+00:00 DEBUG (7): Import Completed
+2011-11-27T04:59:01+00:00 DEBUG (7): File not copied
+2011-11-28T04:59:02+00:00 DEBUG (7): Import Started
+2011-11-28T04:59:02+00:00 DEBUG (7): Import Completed
+2011-11-28T04:59:02+00:00 DEBUG (7): File not copied
+2011-11-29T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-29T04:59:15+00:00 DEBUG (7): 20 - Completed!!
+2011-11-29T04:59:24+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-29T04:59:24+00:00 DEBUG (7): Found 34 rows.
+2011-11-29T04:59:24+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-29T04:59:24+00:00 DEBUG (7): Import Completed
+2011-11-29T04:59:24+00:00 DEBUG (7): File copied
+2011-11-30T04:59:01+00:00 DEBUG (7): Import Started
+2011-11-30T04:59:15+00:00 DEBUG (7): 20 - Completed!!
+2011-11-30T04:59:16+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-11-30T04:59:16+00:00 DEBUG (7): Found 22 rows.
+2011-11-30T04:59:16+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-11-30T04:59:16+00:00 DEBUG (7): Import Completed
+2011-11-30T04:59:16+00:00 DEBUG (7): File copied
+2011-12-01T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-01T04:59:15+00:00 DEBUG (7): 20 - Completed!!
+2011-12-01T04:59:27+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-12-01T04:59:27+00:00 DEBUG (7): Found 39 rows.
+2011-12-01T04:59:27+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-12-01T04:59:27+00:00 DEBUG (7): Import Completed
+2011-12-01T04:59:27+00:00 DEBUG (7): File copied
+2011-12-02T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-02T04:59:07+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2011-12-02T04:59:07+00:00 DEBUG (7): Found 6 rows.
+2011-12-02T04:59:07+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2011-12-02T04:59:07+00:00 DEBUG (7): Import Completed
+2011-12-02T04:59:07+00:00 DEBUG (7): File copied
+2011-12-03T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-03T04:59:03+00:00 DEBUG (7): Import Completed
+2011-12-03T04:59:03+00:00 DEBUG (7): File not copied
+2011-12-04T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-04T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-04T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-05T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-05T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-05T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-06T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-06T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-06T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-07T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-07T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-07T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-08T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-08T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-08T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-09T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-09T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-09T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-10T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-10T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-10T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-11T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-11T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-11T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-12T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-12T04:59:01+00:00 DEBUG (7): Import Completed
+2011-12-12T04:59:01+00:00 DEBUG (7): File not copied
+2011-12-13T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-13T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-13T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-14T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-14T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-14T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-15T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-15T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-15T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-16T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-16T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-16T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-17T04:59:03+00:00 DEBUG (7): Import Started
+2011-12-17T04:59:03+00:00 DEBUG (7): Import Completed
+2011-12-17T04:59:03+00:00 DEBUG (7): File not copied
+2011-12-18T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-18T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-18T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-19T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-19T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-19T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-20T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-20T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-20T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-21T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-21T04:59:01+00:00 DEBUG (7): Import Completed
+2011-12-21T04:59:01+00:00 DEBUG (7): File not copied
+2011-12-22T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-22T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-22T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-23T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-23T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-23T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-24T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-24T04:59:03+00:00 DEBUG (7): Import Completed
+2011-12-24T04:59:03+00:00 DEBUG (7): File not copied
+2011-12-25T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-25T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-25T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-26T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-26T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-26T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-27T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-27T04:59:01+00:00 DEBUG (7): Import Completed
+2011-12-27T04:59:01+00:00 DEBUG (7): File not copied
+2011-12-28T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-28T04:59:01+00:00 DEBUG (7): Import Completed
+2011-12-28T04:59:01+00:00 DEBUG (7): File not copied
+2011-12-29T04:59:02+00:00 DEBUG (7): Import Started
+2011-12-29T04:59:02+00:00 DEBUG (7): Import Completed
+2011-12-29T04:59:02+00:00 DEBUG (7): File not copied
+2011-12-30T04:59:01+00:00 DEBUG (7): Import Started
+2011-12-30T04:59:01+00:00 DEBUG (7): Import Completed
+2011-12-30T04:59:01+00:00 DEBUG (7): File not copied
+2011-12-31T04:59:03+00:00 DEBUG (7): Import Started
+2011-12-31T04:59:03+00:00 DEBUG (7): Import Completed
+2011-12-31T04:59:03+00:00 DEBUG (7): File not copied
+2012-01-01T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-01T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-01T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-02T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-02T04:59:01+00:00 DEBUG (7): Import Completed
+2012-01-02T04:59:01+00:00 DEBUG (7): File not copied
+2012-01-03T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-03T04:59:03+00:00 DEBUG (7): Import Completed
+2012-01-03T04:59:03+00:00 DEBUG (7): File not copied
+2012-01-04T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-04T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-04T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-05T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-05T04:59:01+00:00 DEBUG (7): Import Completed
+2012-01-05T04:59:01+00:00 DEBUG (7): File not copied
+2012-01-06T04:59:03+00:00 DEBUG (7): Import Started
+2012-01-06T04:59:03+00:00 DEBUG (7): Import Completed
+2012-01-06T04:59:03+00:00 DEBUG (7): File not copied
+2012-01-07T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-07T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-07T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-08T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-08T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-08T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-09T04:59:03+00:00 DEBUG (7): Import Started
+2012-01-09T04:59:03+00:00 DEBUG (7): Import Completed
+2012-01-09T04:59:03+00:00 DEBUG (7): File not copied
+2012-01-10T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-10T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-10T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-11T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-11T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-11T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-12T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-12T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-12T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-13T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-13T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-13T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-14T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-14T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-14T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-15T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-15T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-15T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-16T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-16T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-16T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-17T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-17T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-17T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-18T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-18T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-18T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-19T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-19T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-19T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-20T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-20T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-20T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-21T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-21T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-21T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-22T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-22T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-22T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-23T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-23T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-23T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-24T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-24T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-24T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-25T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-25T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-25T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-26T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-26T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-26T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-27T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-27T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-27T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-28T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-28T04:59:01+00:00 DEBUG (7): Import Completed
+2012-01-28T04:59:01+00:00 DEBUG (7): File not copied
+2012-01-29T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-29T04:59:01+00:00 DEBUG (7): Import Completed
+2012-01-29T04:59:01+00:00 DEBUG (7): File not copied
+2012-01-30T04:59:01+00:00 DEBUG (7): Import Started
+2012-01-30T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-30T04:59:02+00:00 DEBUG (7): File not copied
+2012-01-31T04:59:02+00:00 DEBUG (7): Import Started
+2012-01-31T04:59:02+00:00 DEBUG (7): Import Completed
+2012-01-31T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-01T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-01T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-01T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-02T04:59:01+00:00 DEBUG (7): Import Started
+2012-02-02T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-02T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-03T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-03T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-03T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-04T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-04T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-04T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-05T04:59:01+00:00 DEBUG (7): Import Started
+2012-02-05T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-05T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-06T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-06T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-06T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-07T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-07T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-07T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-08T04:59:01+00:00 DEBUG (7): Import Started
+2012-02-08T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-08T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-09T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-09T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-09T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-10T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-10T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-10T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-11T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-11T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-11T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-12T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-12T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-12T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-13T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-13T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-13T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-14T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-14T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-14T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-15T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-15T04:59:03+00:00 DEBUG (7): Import Completed
+2012-02-15T04:59:03+00:00 DEBUG (7): File not copied
+2012-02-16T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-16T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-16T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-17T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-17T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-17T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-18T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-18T04:59:21+00:00 DEBUG (7): 20 - Completed!!
+2012-02-18T04:59:34+00:00 DEBUG (7): 40 - Completed!!
+2012-02-18T04:59:49+00:00 DEBUG (7): 60 - Completed!!
+2012-02-18T05:00:04+00:00 DEBUG (7): 80 - Completed!!
+2012-02-18T05:00:19+00:00 DEBUG (7): 100 - Completed!!
+2012-02-18T05:00:34+00:00 DEBUG (7): 120 - Completed!!
+2012-02-18T05:00:49+00:00 DEBUG (7): 140 - Completed!!
+2012-02-18T05:01:05+00:00 DEBUG (7): 160 - Completed!!
+2012-02-18T05:01:20+00:00 DEBUG (7): 180 - Completed!!
+2012-02-18T05:01:34+00:00 DEBUG (7): 200 - Completed!!
+2012-02-18T05:01:49+00:00 DEBUG (7): 220 - Completed!!
+2012-02-18T05:02:04+00:00 DEBUG (7): 240 - Completed!!
+2012-02-18T05:02:18+00:00 DEBUG (7): 260 - Completed!!
+2012-02-18T05:02:33+00:00 DEBUG (7): 280 - Completed!!
+2012-02-18T05:02:48+00:00 DEBUG (7): 300 - Completed!!
+2012-02-18T05:03:02+00:00 DEBUG (7): 320 - Completed!!
+2012-02-18T05:03:16+00:00 DEBUG (7): 340 - Completed!!
+2012-02-18T05:03:30+00:00 DEBUG (7): 360 - Completed!!
+2012-02-18T05:03:45+00:00 DEBUG (7): 380 - Completed!!
+2012-02-18T05:04:00+00:00 DEBUG (7): 400 - Completed!!
+2012-02-18T05:04:16+00:00 DEBUG (7): 420 - Completed!!
+2012-02-18T05:04:31+00:00 DEBUG (7): 440 - Completed!!
+2012-02-18T05:04:45+00:00 DEBUG (7): 460 - Completed!!
+2012-02-18T05:04:50+00:00 DEBUG (7): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '811-0-1-2.0000-0' for key 'UNQ_CATALOG_PRODUCT_TIER_PRICE'
+2012-02-18T05:05:00+00:00 DEBUG (7): 480 - Completed!!
+2012-02-18T05:05:00+00:00 DEBUG (7): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '827-1-0-2.0000-0' for key 'UNQ_CATALOG_PRODUCT_TIER_PRICE'
+2012-02-18T05:05:13+00:00 DEBUG (7): 500 - Completed!!
+2012-02-18T05:05:27+00:00 DEBUG (7): 520 - Completed!!
+2012-02-18T05:05:41+00:00 DEBUG (7): 540 - Completed!!
+2012-02-18T05:05:48+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-18T05:05:48+00:00 DEBUG (7): Found 550 rows.
+2012-02-18T05:05:48+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-18T05:05:48+00:00 DEBUG (7): Import Completed
+2012-02-18T05:05:48+00:00 DEBUG (7): File copied
+2012-02-19T04:59:01+00:00 DEBUG (7): Import Started
+2012-02-19T04:59:01+00:00 DEBUG (7): Import Completed
+2012-02-19T04:59:01+00:00 DEBUG (7): File not copied
+2012-02-20T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-20T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-20T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-21T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-21T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-21T04:59:09+00:00 DEBUG (7): Found 8 rows.
+2012-02-21T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-21T04:59:09+00:00 DEBUG (7): Import Completed
+2012-02-21T04:59:09+00:00 DEBUG (7): File copied
+2012-02-22T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-22T04:59:02+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-22T04:59:02+00:00 DEBUG (7): Found 0 rows.
+2012-02-22T04:59:02+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-22T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-22T04:59:02+00:00 DEBUG (7): File copied
+2012-02-23T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-23T04:59:14+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-23T04:59:14+00:00 DEBUG (7): Found 14 rows.
+2012-02-23T04:59:14+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-23T04:59:14+00:00 DEBUG (7): Import Completed
+2012-02-23T04:59:14+00:00 DEBUG (7): File copied
+2012-02-24T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-24T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-24T04:59:09+00:00 DEBUG (7): Found 7 rows.
+2012-02-24T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-24T04:59:09+00:00 DEBUG (7): Import Completed
+2012-02-24T04:59:09+00:00 DEBUG (7): File copied
+2012-02-25T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-25T04:59:13+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-25T04:59:13+00:00 DEBUG (7): Found 12 rows.
+2012-02-25T04:59:13+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-25T04:59:13+00:00 DEBUG (7): Import Completed
+2012-02-25T04:59:13+00:00 DEBUG (7): File copied
+2012-02-26T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-26T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-26T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-27T04:59:01+00:00 DEBUG (7): Import Started
+2012-02-27T04:59:02+00:00 DEBUG (7): Import Completed
+2012-02-27T04:59:02+00:00 DEBUG (7): File not copied
+2012-02-28T04:59:02+00:00 DEBUG (7): Import Started
+2012-02-28T04:59:05+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-28T04:59:05+00:00 DEBUG (7): Found 2 rows.
+2012-02-28T04:59:05+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-28T04:59:05+00:00 DEBUG (7): Import Completed
+2012-02-28T04:59:05+00:00 DEBUG (7): File copied
+2012-02-29T04:59:01+00:00 DEBUG (7): Import Started
+2012-02-29T04:59:06+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-02-29T04:59:06+00:00 DEBUG (7): Found 4 rows.
+2012-02-29T04:59:06+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-02-29T04:59:06+00:00 DEBUG (7): Import Completed
+2012-02-29T04:59:06+00:00 DEBUG (7): File copied
+2012-03-01T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-01T04:59:10+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-01T04:59:10+00:00 DEBUG (7): Found 8 rows.
+2012-03-01T04:59:10+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-01T04:59:10+00:00 DEBUG (7): Import Completed
+2012-03-01T04:59:10+00:00 DEBUG (7): File copied
+2012-03-02T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-02T04:59:10+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-02T04:59:10+00:00 DEBUG (7): Found 8 rows.
+2012-03-02T04:59:10+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-02T04:59:10+00:00 DEBUG (7): Import Completed
+2012-03-02T04:59:10+00:00 DEBUG (7): File copied
+2012-03-03T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-03T04:59:13+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-03T04:59:13+00:00 DEBUG (7): Found 13 rows.
+2012-03-03T04:59:13+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-03T04:59:13+00:00 DEBUG (7): Import Completed
+2012-03-03T04:59:13+00:00 DEBUG (7): File copied
+2012-03-04T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-04T04:59:02+00:00 DEBUG (7): Import Completed
+2012-03-04T04:59:02+00:00 DEBUG (7): File not copied
+2012-03-05T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-05T04:59:02+00:00 DEBUG (7): Import Completed
+2012-03-05T04:59:02+00:00 DEBUG (7): File not copied
+2012-03-06T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-06T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-06T04:59:09+00:00 DEBUG (7): Found 7 rows.
+2012-03-06T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-06T04:59:09+00:00 DEBUG (7): Import Completed
+2012-03-06T04:59:09+00:00 DEBUG (7): File copied
+2012-03-07T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-07T04:59:17+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-07T04:59:17+00:00 DEBUG (7): Found 19 rows.
+2012-03-07T04:59:17+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-07T04:59:17+00:00 DEBUG (7): Import Completed
+2012-03-07T04:59:17+00:00 DEBUG (7): File copied
+2012-03-08T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-08T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-08T04:59:09+00:00 DEBUG (7): Found 6 rows.
+2012-03-08T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-08T04:59:09+00:00 DEBUG (7): Import Completed
+2012-03-08T04:59:09+00:00 DEBUG (7): File copied
+2012-03-09T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-09T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-09T04:59:09+00:00 DEBUG (7): Found 8 rows.
+2012-03-09T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-09T04:59:09+00:00 DEBUG (7): Import Completed
+2012-03-09T04:59:09+00:00 DEBUG (7): File copied
+2012-03-10T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-10T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-10T04:59:09+00:00 DEBUG (7): Found 8 rows.
+2012-03-10T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-10T04:59:09+00:00 DEBUG (7): Import Completed
+2012-03-10T04:59:09+00:00 DEBUG (7): File copied
+2012-03-11T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-11T04:59:01+00:00 DEBUG (7): Import Completed
+2012-03-11T04:59:01+00:00 DEBUG (7): File not copied
+2012-03-12T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-12T04:59:02+00:00 DEBUG (7): Import Completed
+2012-03-12T04:59:02+00:00 DEBUG (7): File not copied
+2012-03-13T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-13T04:59:11+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-13T04:59:11+00:00 DEBUG (7): Found 9 rows.
+2012-03-13T04:59:11+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-13T04:59:11+00:00 DEBUG (7): Import Completed
+2012-03-13T04:59:11+00:00 DEBUG (7): File copied
+2012-03-14T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-14T04:59:10+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-14T04:59:10+00:00 DEBUG (7): Found 8 rows.
+2012-03-14T04:59:10+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-14T04:59:10+00:00 DEBUG (7): Import Completed
+2012-03-14T04:59:10+00:00 DEBUG (7): File copied
+2012-03-15T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-15T04:59:06+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-15T04:59:06+00:00 DEBUG (7): Found 5 rows.
+2012-03-15T04:59:06+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-15T04:59:06+00:00 DEBUG (7): Import Completed
+2012-03-15T04:59:06+00:00 DEBUG (7): File copied
+2012-03-16T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-16T04:59:13+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-16T04:59:13+00:00 DEBUG (7): Found 13 rows.
+2012-03-16T04:59:13+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-16T04:59:13+00:00 DEBUG (7): Import Completed
+2012-03-16T04:59:13+00:00 DEBUG (7): File copied
+2012-03-17T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-17T04:59:16+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-17T04:59:16+00:00 DEBUG (7): Found 17 rows.
+2012-03-17T04:59:16+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-17T04:59:16+00:00 DEBUG (7): Import Completed
+2012-03-17T04:59:16+00:00 DEBUG (7): File copied
+2012-03-18T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-18T04:59:02+00:00 DEBUG (7): Import Completed
+2012-03-18T04:59:02+00:00 DEBUG (7): File not copied
+2012-03-19T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-19T04:59:01+00:00 DEBUG (7): Import Completed
+2012-03-19T04:59:01+00:00 DEBUG (7): File not copied
+2012-03-20T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-20T04:59:01+00:00 DEBUG (7): Import Completed
+2012-03-20T04:59:01+00:00 DEBUG (7): File not copied
+2012-03-21T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-21T04:59:18+00:00 DEBUG (7): 20 - Completed!!
+2012-03-21T04:59:33+00:00 DEBUG (7): 40 - Completed!!
+2012-03-21T04:59:38+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-21T04:59:38+00:00 DEBUG (7): Found 47 rows.
+2012-03-21T04:59:38+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-21T04:59:38+00:00 DEBUG (7): Import Completed
+2012-03-21T04:59:38+00:00 DEBUG (7): File copied
+2012-03-22T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-22T04:59:17+00:00 DEBUG (7): 20 - Completed!!
+2012-03-22T04:59:20+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-22T04:59:20+00:00 DEBUG (7): Found 24 rows.
+2012-03-22T04:59:20+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-22T04:59:20+00:00 DEBUG (7): Import Completed
+2012-03-22T04:59:20+00:00 DEBUG (7): File copied
+2012-03-23T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-23T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-03-23T04:59:30+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-23T04:59:30+00:00 DEBUG (7): Found 35 rows.
+2012-03-23T04:59:30+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-23T04:59:30+00:00 DEBUG (7): Import Completed
+2012-03-23T04:59:30+00:00 DEBUG (7): File copied
+2012-03-24T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-24T04:59:03+00:00 DEBUG (7): Import Completed
+2012-03-24T04:59:03+00:00 DEBUG (7): File not copied
+2012-03-25T04:59:01+00:00 DEBUG (7): Import Started
+2012-03-25T04:59:01+00:00 DEBUG (7): Import Completed
+2012-03-25T04:59:01+00:00 DEBUG (7): File not copied
+2012-03-26T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-26T04:59:11+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-26T04:59:11+00:00 DEBUG (7): Found 10 rows.
+2012-03-26T04:59:11+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-26T04:59:11+00:00 DEBUG (7): Import Completed
+2012-03-26T04:59:11+00:00 DEBUG (7): File copied
+2012-03-27T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-27T04:59:08+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-27T04:59:08+00:00 DEBUG (7): Found 6 rows.
+2012-03-27T04:59:08+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-27T04:59:08+00:00 DEBUG (7): Import Completed
+2012-03-27T04:59:08+00:00 DEBUG (7): File copied
+2012-03-28T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-28T04:59:02+00:00 DEBUG (7): Import Completed
+2012-03-28T04:59:02+00:00 DEBUG (7): File not copied
+2012-03-29T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-29T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-29T04:59:09+00:00 DEBUG (7): Found 8 rows.
+2012-03-29T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-29T04:59:09+00:00 DEBUG (7): Import Completed
+2012-03-29T04:59:09+00:00 DEBUG (7): File copied
+2012-03-30T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-30T04:59:07+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-03-30T04:59:07+00:00 DEBUG (7): Found 4 rows.
+2012-03-30T04:59:07+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-03-30T04:59:07+00:00 DEBUG (7): Import Completed
+2012-03-30T04:59:07+00:00 DEBUG (7): File copied
+2012-03-31T04:59:02+00:00 DEBUG (7): Import Started
+2012-03-31T04:59:02+00:00 DEBUG (7): Import Completed
+2012-03-31T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-01T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-01T04:59:01+00:00 DEBUG (7): Import Completed
+2012-04-01T04:59:01+00:00 DEBUG (7): File not copied
+2012-04-02T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-02T04:59:06+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-02T04:59:06+00:00 DEBUG (7): Found 3 rows.
+2012-04-02T04:59:06+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-02T04:59:06+00:00 DEBUG (7): Import Completed
+2012-04-02T04:59:06+00:00 DEBUG (7): File copied
+2012-04-03T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-03T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-03T04:59:09+00:00 DEBUG (7): Found 8 rows.
+2012-04-03T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-03T04:59:09+00:00 DEBUG (7): Import Completed
+2012-04-03T04:59:09+00:00 DEBUG (7): File copied
+2012-04-04T04:59:03+00:00 DEBUG (7): Import Started
+2012-04-04T04:59:15+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-04T04:59:15+00:00 DEBUG (7): Found 15 rows.
+2012-04-04T04:59:15+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-04T04:59:15+00:00 DEBUG (7): Import Completed
+2012-04-04T04:59:15+00:00 DEBUG (7): File copied
+2012-04-05T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-05T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-05T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-06T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-06T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-04-06T04:59:20+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-06T04:59:20+00:00 DEBUG (7): Found 21 rows.
+2012-04-06T04:59:20+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-06T04:59:20+00:00 DEBUG (7): Import Completed
+2012-04-06T04:59:20+00:00 DEBUG (7): File copied
+2012-04-07T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-07T04:59:03+00:00 DEBUG (7): Import Completed
+2012-04-07T04:59:03+00:00 DEBUG (7): File not copied
+2012-04-08T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-08T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-08T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-09T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-09T04:59:07+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-09T04:59:07+00:00 DEBUG (7): Found 5 rows.
+2012-04-09T04:59:07+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-09T04:59:07+00:00 DEBUG (7): Import Completed
+2012-04-09T04:59:07+00:00 DEBUG (7): File copied
+2012-04-10T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-10T04:59:06+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-10T04:59:06+00:00 DEBUG (7): Found 2 rows.
+2012-04-10T04:59:06+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-10T04:59:06+00:00 DEBUG (7): Import Completed
+2012-04-10T04:59:06+00:00 DEBUG (7): File copied
+2012-04-11T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-11T04:59:18+00:00 DEBUG (7): 20 - Completed!!
+2012-04-11T04:59:32+00:00 DEBUG (7): 40 - Completed!!
+2012-04-11T04:59:36+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-11T04:59:36+00:00 DEBUG (7): Found 46 rows.
+2012-04-11T04:59:36+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-11T04:59:36+00:00 DEBUG (7): Import Completed
+2012-04-11T04:59:36+00:00 DEBUG (7): File copied
+2012-04-12T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-12T04:59:10+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-12T04:59:10+00:00 DEBUG (7): Found 8 rows.
+2012-04-12T04:59:10+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-12T04:59:10+00:00 DEBUG (7): Import Completed
+2012-04-12T04:59:10+00:00 DEBUG (7): File copied
+2012-04-13T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-13T04:59:18+00:00 DEBUG (7): 20 - Completed!!
+2012-04-13T04:59:22+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-13T04:59:22+00:00 DEBUG (7): Found 25 rows.
+2012-04-13T04:59:22+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-13T04:59:22+00:00 DEBUG (7): Import Completed
+2012-04-13T04:59:22+00:00 DEBUG (7): File copied
+2012-04-14T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-14T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-14T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-15T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-15T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-15T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-16T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-16T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-16T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-17T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-17T04:59:16+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-17T04:59:16+00:00 DEBUG (7): Found 15 rows.
+2012-04-17T04:59:16+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-17T04:59:16+00:00 DEBUG (7): Import Completed
+2012-04-17T04:59:16+00:00 DEBUG (7): File copied
+2012-04-18T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-18T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-04-18T04:59:24+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-18T04:59:24+00:00 DEBUG (7): Found 27 rows.
+2012-04-18T04:59:24+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-18T04:59:24+00:00 DEBUG (7): Import Completed
+2012-04-18T04:59:24+00:00 DEBUG (7): File copied
+2012-04-19T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-19T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-04-19T04:59:24+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-19T04:59:24+00:00 DEBUG (7): Found 27 rows.
+2012-04-19T04:59:24+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-19T04:59:24+00:00 DEBUG (7): Import Completed
+2012-04-19T04:59:24+00:00 DEBUG (7): File copied
+2012-04-20T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-20T04:59:06+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-20T04:59:06+00:00 DEBUG (7): Found 3 rows.
+2012-04-20T04:59:06+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-20T04:59:06+00:00 DEBUG (7): Import Completed
+2012-04-20T04:59:06+00:00 DEBUG (7): File copied
+2012-04-21T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-21T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-21T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-22T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-22T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-22T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-23T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-23T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-23T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-24T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-24T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-24T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-25T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-25T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-04-25T04:59:27+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-25T04:59:27+00:00 DEBUG (7): Found 30 rows.
+2012-04-25T04:59:27+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-25T04:59:27+00:00 DEBUG (7): Import Completed
+2012-04-25T04:59:27+00:00 DEBUG (7): File copied
+2012-04-26T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-26T04:59:08+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-26T04:59:08+00:00 DEBUG (7): Found 6 rows.
+2012-04-26T04:59:08+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-26T04:59:08+00:00 DEBUG (7): Import Completed
+2012-04-26T04:59:08+00:00 DEBUG (7): File copied
+2012-04-27T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-27T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-04-27T04:59:24+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-27T04:59:24+00:00 DEBUG (7): Found 27 rows.
+2012-04-27T04:59:24+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-27T04:59:24+00:00 DEBUG (7): Import Completed
+2012-04-27T04:59:24+00:00 DEBUG (7): File copied
+2012-04-28T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-28T04:59:02+00:00 DEBUG (7): Import Completed
+2012-04-28T04:59:02+00:00 DEBUG (7): File not copied
+2012-04-29T04:59:01+00:00 DEBUG (7): Import Started
+2012-04-29T04:59:01+00:00 DEBUG (7): Import Completed
+2012-04-29T04:59:01+00:00 DEBUG (7): File not copied
+2012-04-30T04:59:02+00:00 DEBUG (7): Import Started
+2012-04-30T04:59:11+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-04-30T04:59:11+00:00 DEBUG (7): Found 11 rows.
+2012-04-30T04:59:11+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-04-30T04:59:11+00:00 DEBUG (7): Import Completed
+2012-04-30T04:59:11+00:00 DEBUG (7): File copied
+2012-05-01T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-01T04:59:17+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-01T04:59:17+00:00 DEBUG (7): Found 18 rows.
+2012-05-01T04:59:17+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-01T04:59:17+00:00 DEBUG (7): Import Completed
+2012-05-01T04:59:17+00:00 DEBUG (7): File copied
+2012-05-02T04:59:03+00:00 DEBUG (7): Import Started
+2012-05-02T04:59:03+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-02T04:59:03+00:00 DEBUG (7): Found 0 rows.
+2012-05-02T04:59:03+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-02T04:59:03+00:00 DEBUG (7): Import Completed
+2012-05-02T04:59:03+00:00 DEBUG (7): File copied
+2012-05-03T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-03T04:59:10+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-03T04:59:10+00:00 DEBUG (7): Found 8 rows.
+2012-05-03T04:59:10+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-03T04:59:10+00:00 DEBUG (7): Import Completed
+2012-05-03T04:59:10+00:00 DEBUG (7): File copied
+2012-05-04T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-04T04:59:04+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-04T04:59:04+00:00 DEBUG (7): Found 2 rows.
+2012-05-04T04:59:04+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-04T04:59:04+00:00 DEBUG (7): Import Completed
+2012-05-04T04:59:04+00:00 DEBUG (7): File copied
+2012-05-05T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-05T04:59:02+00:00 DEBUG (7): Import Completed
+2012-05-05T04:59:02+00:00 DEBUG (7): File not copied
+2012-05-06T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-06T04:59:02+00:00 DEBUG (7): Import Completed
+2012-05-06T04:59:02+00:00 DEBUG (7): File not copied
+2012-05-07T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-07T04:59:01+00:00 DEBUG (7): Import Completed
+2012-05-07T04:59:01+00:00 DEBUG (7): File not copied
+2012-05-08T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-08T04:59:05+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-08T04:59:05+00:00 DEBUG (7): Found 3 rows.
+2012-05-08T04:59:05+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-08T04:59:05+00:00 DEBUG (7): Import Completed
+2012-05-08T04:59:05+00:00 DEBUG (7): File copied
+2012-05-08T09:22:27+00:00 DEBUG (7): Import Started
+2012-05-08T09:22:41+00:00 DEBUG (7): 20 - Completed!!
+2012-05-08T09:22:54+00:00 DEBUG (7): 40 - Completed!!
+2012-05-08T09:22:57+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-08T09:22:57+00:00 DEBUG (7): Found 44 rows.
+2012-05-08T09:22:57+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-08T09:22:57+00:00 DEBUG (7): Import Completed
+2012-05-08T09:22:57+00:00 DEBUG (7): File copied
+2012-05-08T09:28:46+00:00 DEBUG (7): Import Started
+2012-05-08T09:29:01+00:00 DEBUG (7): 20 - Completed!!
+2012-05-08T09:29:14+00:00 DEBUG (7): 40 - Completed!!
+2012-05-08T09:29:19+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-08T09:29:19+00:00 DEBUG (7): Found 47 rows.
+2012-05-08T09:29:19+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-08T09:29:19+00:00 DEBUG (7): Import Completed
+2012-05-08T09:29:19+00:00 DEBUG (7): File copied
+2012-05-09T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-09T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-09T04:59:09+00:00 DEBUG (7): Found 8 rows.
+2012-05-09T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-09T04:59:09+00:00 DEBUG (7): Import Completed
+2012-05-09T04:59:09+00:00 DEBUG (7): File copied
+2012-05-10T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-10T04:59:08+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-10T04:59:08+00:00 DEBUG (7): Found 6 rows.
+2012-05-10T04:59:08+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-10T04:59:08+00:00 DEBUG (7): Import Completed
+2012-05-10T04:59:08+00:00 DEBUG (7): File copied
+2012-05-11T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-11T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-05-11T04:59:21+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-11T04:59:21+00:00 DEBUG (7): Found 22 rows.
+2012-05-11T04:59:21+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-11T04:59:21+00:00 DEBUG (7): Import Completed
+2012-05-11T04:59:21+00:00 DEBUG (7): File copied
+2012-05-12T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-12T04:59:02+00:00 DEBUG (7): Import Completed
+2012-05-12T04:59:02+00:00 DEBUG (7): File not copied
+2012-05-13T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-13T04:59:02+00:00 DEBUG (7): Import Completed
+2012-05-13T04:59:02+00:00 DEBUG (7): File not copied
+2012-05-14T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-14T04:59:05+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-14T04:59:05+00:00 DEBUG (7): Found 2 rows.
+2012-05-14T04:59:05+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-14T04:59:05+00:00 DEBUG (7): Import Completed
+2012-05-14T04:59:05+00:00 DEBUG (7): File copied
+2012-05-15T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-15T04:59:18+00:00 DEBUG (7): 20 - Completed!!
+2012-05-15T04:59:33+00:00 DEBUG (7): 40 - Completed!!
+2012-05-15T04:59:33+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-15T04:59:33+00:00 DEBUG (7): Found 40 rows.
+2012-05-15T04:59:33+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-15T04:59:33+00:00 DEBUG (7): Import Completed
+2012-05-15T04:59:33+00:00 DEBUG (7): File copied
+2012-05-16T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-16T04:59:14+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-16T04:59:14+00:00 DEBUG (7): Found 13 rows.
+2012-05-16T04:59:14+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-16T04:59:14+00:00 DEBUG (7): Import Completed
+2012-05-16T04:59:14+00:00 DEBUG (7): File copied
+2012-05-17T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-17T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-05-17T04:59:34+00:00 DEBUG (7): 40 - Completed!!
+2012-05-17T04:59:34+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-17T04:59:34+00:00 DEBUG (7): Found 40 rows.
+2012-05-17T04:59:34+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-17T04:59:34+00:00 DEBUG (7): Import Completed
+2012-05-17T04:59:34+00:00 DEBUG (7): File copied
+2012-05-18T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-18T04:59:07+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-18T04:59:07+00:00 DEBUG (7): Found 5 rows.
+2012-05-18T04:59:07+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-18T04:59:07+00:00 DEBUG (7): Import Completed
+2012-05-18T04:59:07+00:00 DEBUG (7): File copied
+2012-05-19T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-19T04:59:02+00:00 DEBUG (7): Import Completed
+2012-05-19T04:59:02+00:00 DEBUG (7): File not copied
+2012-05-20T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-20T04:59:01+00:00 DEBUG (7): Import Completed
+2012-05-20T04:59:01+00:00 DEBUG (7): File not copied
+2012-05-21T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-21T04:59:08+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-21T04:59:08+00:00 DEBUG (7): Found 6 rows.
+2012-05-21T04:59:08+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-21T04:59:08+00:00 DEBUG (7): Import Completed
+2012-05-21T04:59:08+00:00 DEBUG (7): File copied
+2012-05-22T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-22T04:59:06+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-22T04:59:06+00:00 DEBUG (7): Found 3 rows.
+2012-05-22T04:59:06+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-22T04:59:06+00:00 DEBUG (7): Import Completed
+2012-05-22T04:59:06+00:00 DEBUG (7): File copied
+2012-05-23T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-23T04:59:18+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-23T04:59:18+00:00 DEBUG (7): Found 19 rows.
+2012-05-23T04:59:18+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-23T04:59:18+00:00 DEBUG (7): Import Completed
+2012-05-23T04:59:18+00:00 DEBUG (7): File copied
+2012-05-24T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-24T04:59:11+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-24T04:59:11+00:00 DEBUG (7): Found 10 rows.
+2012-05-24T04:59:11+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-24T04:59:11+00:00 DEBUG (7): Import Completed
+2012-05-24T04:59:11+00:00 DEBUG (7): File copied
+2012-05-25T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-25T04:59:20+00:00 DEBUG (7): 20 - Completed!!
+2012-05-25T04:59:23+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-25T04:59:23+00:00 DEBUG (7): Found 25 rows.
+2012-05-25T04:59:23+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-25T04:59:23+00:00 DEBUG (7): Import Completed
+2012-05-25T04:59:23+00:00 DEBUG (7): File copied
+2012-05-26T04:59:01+00:00 DEBUG (7): Import Started
+2012-05-26T04:59:01+00:00 DEBUG (7): Import Completed
+2012-05-26T04:59:01+00:00 DEBUG (7): File not copied
+2012-05-27T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-27T04:59:02+00:00 DEBUG (7): Import Completed
+2012-05-27T04:59:02+00:00 DEBUG (7): File not copied
+2012-05-28T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-28T04:59:09+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-28T04:59:09+00:00 DEBUG (7): Found 7 rows.
+2012-05-28T04:59:09+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-28T04:59:09+00:00 DEBUG (7): Import Completed
+2012-05-28T04:59:09+00:00 DEBUG (7): File copied
+2012-05-29T04:59:02+00:00 DEBUG (7): Import Started
+2012-05-29T04:59:19+00:00 DEBUG (7): 20 - Completed!!
+2012-05-29T04:59:22+00:00 DEBUG (7): Starting Mage_Dataflow_Model_Convert_Parser_Csv :: parse
+2012-05-29T04:59:22+00:00 DEBUG (7): Found 23 rows.
+2012-05-29T04:59:22+00:00 DEBUG (7): Starting catalog/convert_adapter_product :: parse
+2012-05-29T04:59:22+00:00 DEBUG (7): Import Completed
+2012-05-29T04:59:22+00:00 DEBUG (7): File copied
+2012-05-30T04:59:02+00:00 DEBUG (7): Import Started

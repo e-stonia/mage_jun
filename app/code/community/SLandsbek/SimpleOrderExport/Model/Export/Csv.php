@@ -45,7 +45,7 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
      * @return String The name of the written csv file in var/export
      */
     function writeLine($fp, $data) {
-        $str = implode(',', $data) . "\n";
+        $str = implode(',', $data) . "\r\n";
 
         return fputs($fp, $str);
     }
@@ -56,26 +56,42 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
         $counts = array();
         $orderItems = $order->getItemsCollection();
         $itemInc = 0;
+//INTS proovime logimist
+//error_log("INTS--ekspordi protseduur käivitus", 3, "/var/www/var/log/debug.log");
 
         foreach ($orderItems as $item) {
             $sku = $item->getData("sku");
             $type = substr($sku, strlen($sku) - 2);
-            if (array_key_exists($type, $filenames))
-                $fp = $filenames[$type]["file"];
+            $product = Mage::getModel('catalog/product')->load($item->getData('product_id'));
+            $tuup = $product->getTuup();
+            if($tuup == 3){
+                $finalType = "-2";
+            }else{
+                $finalType = "-1";
+            }
+            if (array_key_exists($type . $finalType, $filenames))
+                $fp = $filenames[$type . $finalType]["file"];
             else {
-                $fileName = $order->getRealOrderId() . "_" . $type . '.csv';
+                $fileName = "p-" . $type . "-" .  $order->getRealOrderId() . $finalType . '.csv';
                 $fp = fopen(Mage::getBaseDir('export') . "/orders/" . $fileName, 'w');
-                $filenames[$type] = array("file" => $fp, "count" => 0, "filename" => $fileName);
+                $filenames[$type . $finalType] = array("file" => $fp, "count" => 0, "filename" => $fileName);
                 $this->addOrderInfo($order, $fp, $type);
             }
+            
             $this->addToFile($item, $fp);
-            $filenames[$type]["count"] = $filenames[$type]['count'] + 1;
+            $filenames[$type . $finalType]["count"] = $filenames[$type . $finalType]['count'] + 1;
         }
-
-        $conn_id = ftp_connect("92.63.140.173");
-        // login with username and password
-        $login_result = ftp_login($conn_id, "client", "psAAdd391");
-        ftp_chdir($conn_id, "httpdocs/jungent/export/");
+       // $conn_id = ftp_connect("92.63.140.173");
+        $conn_id = ftp_connect("info2.via3l.ee");
+       
+ // login with username and password
+        //$login_result = ftp_login($conn_id, "client", "psAAdd391");
+        $login_result = ftp_login($conn_id, "shell", "kgg4M1");
+        //INTS
+        ftp_pasv($conn_id, true);
+        
+       //ftp_chdir($conn_id, "httpdocs/jungent/export/");
+       ftp_chdir($conn_id, "import");
 
         foreach ($filenames as $file) {
             $record = array(
@@ -86,11 +102,19 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
             fclose($file["file"]);
 
             // upload a file
-            if (ftp_put($conn_id, $fileName, Mage::getBaseDir('export') . "/orders/" . $file["filename"], FTP_ASCII)) {
-                //echo "successfully uploaded $file\n";
+	            
+		if (ftp_put($conn_id, $file["filename"], Mage::getBaseDir('export') . "/orders/" . $file["filename"], FTP_ASCII)) {
+                //error_log("INTS--" . Mage::getBaseDir('export') . "/orders/" . $file["filename"] , 3, "/var/www/var/log/debug.log");
+                //error_log("INTS -- " . $file["filename"] . " faili upload serverile õnnestus " . " \r\n", 3, "/var/www/var/log/debug.log");
+               
+               // echo "successfully uploaded $file\n";
             } else {
+                //error_log("INTS -- " . $file["filename"] . " faili upload serverile ebaõnnestus " . " \r\n" , 3, "/var/www/var/log/debug.log");
+
                 //echo "There was a problem while uploading $file\n";
             }
+	//	error_log("INTS--failinimed" . "  " . $fileName . "  " . $file["filename"]. "\r\n", 3, "/var/www/var/log/debug.log");
+
         }
 
         ftp_close($conn_id);
@@ -172,13 +196,15 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
         //d($item);
 
         $discount = $product->getPrice() - $product->getFinalPrice();
+//        var_dump(intval($item['qty_ordered']));echo "<br />";
+//        var_dump($item['row_total']);echo "<br />";
+//        var_dump($item['discount_amount']);exit;
         $percentage = number_format(100 - (($product->getFinalPrice() / $product->getPrice()) * 100), 2);
-
-        $discountAmmount = $item['discount_amount'];
-        $totalAmmount = $item['row_total'];
+        $discountAmmount = $item['discount_amount'] + ($product->getPrice() - $product->getFinalPrice()) * $item['qty_ordered'];
+        $totalAmmount = $item['row_total'] + ($product->getPrice() - $product->getFinalPrice()) * $item['qty_ordered'] ;
         $discountPercent = ($discountAmmount * 100) / $totalAmmount;
+//        var_dump($discountPercent);exit;
         $tax = $product->getData('tax_value');
-
         $price = round($product->getPrice() - ($product->getPrice() * $discountPercent) / 100 , 2);
         $totalAmmount = round($product->getPrice() * intval($item['qty_ordered']) , 2);
         $taxPrice = $tax * (($totalAmmount - $discountAmmount) / 100);
@@ -202,9 +228,9 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
             '"' . $ean . '"',
             round((($totalAmmount - $discountAmmount) + $taxPrice) , 2),
             '""',
-            $percentage,
+            $discountPercent,
         );
-//        var_dump($discountPercent);exit;
+//        var_dump($percentage);exit;
         $i++;
         $this->writeLine($fp, $data);
 
@@ -222,14 +248,34 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
             $address = Mage::getModel('customer/address')->load($customerAddressId);
         }
         $addressArray = $address->toArray();
-//        $addressString = $addressArray['company'] . " " . $addressArray['firstname'] . " " .
-//                $addressArray['lastname'] . " " . 
-//                $addressArray['street'] . " " . $addressArray['city'] . " " . 
-//                $addressArray['postcode'] . " " . $countryName . " " . $addressArray['telephone'];
         $addressString = $addressArray['street'] . " " . $addressArray['city'] ;
-//        var_dump($addressString);echo "<br />";
-//        var_dump($addressArray);echo "<br />";
-//        var_dump($address->format("text"));exit;
+        
+        $customerComment = Mage::getSingleton('core/session')->getCustomerComment();
+        if($customerComment == "" || !$customerComment){
+            $customerCommentPrefix = "";
+        }else{
+            $customerCommentPrefix = "KM:" . $customerComment . ';';
+        }
+        
+        
+        $adminComment = Mage::getSingleton('customer/session')->getCustomer()->getData('suffix');
+        if($adminComment == "" || !$adminComment){
+            $adminComment = "";
+        }else{
+            $adminComment = "AR:" . $adminComment . ';';
+        }
+        
+        $agentId = Mage::getSingleton('customer/session')->getCustomer()->getMiddlename();
+        $agent = Mage::getModel('manager/manager')->load($agentId, 'code');
+        
+        if($type == '99'){
+            $agentCode = $agent->getCode();
+        }else{
+            $agentCode = $agent->getCode() . $type;
+        }
+//error_log("INTS -- " . $agentId . " on tellimuselt leitud agendikood " . " \r\n", 3, "/var/www/var/log/debug.log");        
+//error_log("INTS -- " . $agentCode . " on agendilt leitud agendikood " . " \r\n", 3, "/var/www/var/log/debug.log"); 
+
         $record = array(
             '"pakkumine"',
             '12018324',
@@ -242,21 +288,20 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
             date("Ymd", $order->getCreatedAtDate()->getTimestamp()),
             date("Ymd", $order->getCreatedAtDate()->getTimestamp() + 86400),
             '""',
-//            '"' . $address->format("text") . '"',
             '"' . $addressString . '"',
             '"' . Mage::getSingleton('customer/session')->getCustomer()->getEmail() . '"',
+            '"' . $agent->getName() . '"',
             '""',
-            '""',
-            '""',
-            '""',
-            '""',
-            '"' . Mage::getSingleton('customer/session')->getCustomer()->getData('suffix') . ' +  ' . Mage::getSingleton('core/session')->getCustomerComment() . '"',
+            '"' . $agent->getEmail() . '"',
+            '"' . $agent->getTel() . '"',
+            '"' . $agentCode . '"',
+            '"' . $customerCommentPrefix . ' ' . $adminComment . '"',
             '"' . date("Ymdhis", $order->getCreatedAtDate()->getTimestamp()) . '"'
         );
 
         $this->writeLine($fp, $record);
     }
-
+//kui ma ei leia failidest type lõpuga agendikoode, siis see ilmsetl on vale meetod
     protected function writeOrder($order, $fp) {
         $common = $this->getCommonOrderValues($order);
         $orderItems = $order->getItemsCollection();
@@ -275,6 +320,19 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
 //                $addressArray['street'] . " " . $addressArray['city'] . " " . 
 //                $addressArray['postcode'] . " " . $countryName . " " . $addressArray['telephone'];
         $addressString = $addressArray['street'] . " " . $addressArray['city'] ;
+         if(Mage::getSingleton('core/session')->getCustomerComment() == "" || !Mage::getSingleton('core/session')->getCustomerComment()){
+            $customerCommentPrefix = "";
+        }else{
+            $customerCommentPrefix = "KM:" . Mage::getSingleton('core/session')->getCustomerComment();
+        }
+        $suffix = Mage::getSingleton('customer/session')->getCustomer()->getData('suffix');
+        if($suffix == "" || !$suffix){
+            $adminComment = "";
+        }else{
+            $adminComment = "AR:" . $suffix;
+        }
+        $agentId = Mage::getSingleton('customer/session')->getCustomer()->getMiddlename();
+        $agent = Mage::getModel('manager/manager')->load($agentId);
         $record = array(
             '"pakkumine"',
             '12018324',
@@ -289,12 +347,12 @@ class SLandsbek_SimpleOrderExport_Model_Export_Csv extends SLandsbek_SimpleOrder
             '""',
             '"' . $addressString . '"',
             '"' . Mage::getSingleton('customer/session')->getCustomer()->getEmail() . '"',
+             '"' . $agent->getName() . '"',
             '""',
-            '""',
-            '""',
-            '""',
-            '""',
-            '"' . Mage::getSingleton('customer/session')->getCustomer()->getData('suffix') . ' +  ' . Mage::getSingleton('core/session')->getCustomerComment() . '"',
+            '"' . $agent->getEmail() . '"',
+            '"' . $agent->getTel() . '"',
+            '"' . $agent->getCode() . '"',
+            '"' . $adminComment . ' ' . $customerComment . '"',
             '"' . date("Ymdhis", $order->getCreatedAtDate()->getTimestamp()) . '"'
         );
 

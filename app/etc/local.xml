@@ -40,10 +40,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[root]]></username>
-                    <password><![CDATA[salakala]]></password>
-                    <dbname><![CDATA[b2b2]]></dbname>
+                    <host><![CDATA[200.1.1.232]]></host>
+                    <username><![CDATA[foodservice]]></username>
+                    <password><![CDATA[merrilD1918]]></password>
+                    <dbname><![CDATA[foodservice]]></dbname>
                     <active>1</active>
                 </connection>
             </default_setup>
