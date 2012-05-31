@@ -1,0 +1,8 @@
+@font-face {
+font-family: 'Myriad Pro';
+src: local('Myriad Pro'), url(../fonts/myriadpro-webfont.eot);}
+
+.button {overflow: hidden;}
+ul.menu li a span{line-height: 25px;padding-top: 2px;}
+.filter input[type='text'] {line-height: 19px;}
+.items input[type='text'] {width: 43px !important;}
