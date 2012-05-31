@@ -1,0 +1,9 @@
+a:5:{i:0;s:45:"Unable to read response, or response is empty";i:1;s:839:"#0 /var/www/lib/Varien/Http/Client.php(61): Zend_Http_Client->request('GET')
+#1 /var/www/app/code/core/Mage/Adminhtml/controllers/DashboardController.php(84): Varien_Http_Client->request('GET')
+#2 /var/www/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_DashboardController->tunnelAction()
+#3 /var/www/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(253): Mage_Core_Controller_Varien_Action->dispatch('tunnel')
+#4 /var/www/app/code/core/Mage/Core/Controller/Varien/Front.php(176): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /var/www/app/code/core/Mage/Core/Model/App.php(304): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /var/www/app/Mage.php(596): Mage_Core_Model_App->run(Array)
+#7 /var/www/index.php(99): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:618:"/index.php/admin/dashboard/tunnel/key/59df61f899e169f630646ddd84eb5bad/?ga=YTo5OntzOjM6ImNodCI7czoyOiJsYyI7czozOiJjaGYiO3M6Mzk6ImJnLHMsZjRmNGY0fGMsbGcsOTAsZmZmZmZmLDAuMSxlZGVkZWQsMCI7czozOiJjaG0iO3M6MTQ6IkIsZjRkNGIyLDAsMCwwIjtzOjQ6ImNoY28iO3M6NjoiZGI0ODE0IjtzOjM6ImNoZCI7czo1MDoiZTpBQUFBQUFBQUFBQUFBQWYuQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUEiO3M6NDoiY2h4dCI7czozOiJ4LHkiO3M6NDoiY2h4bCI7czo3MToiMDp8fHwxODowMHx8fDIxOjAwfHx8MDowMHx8fDM6MDB8fHw2OjAwfHx8OTowMHx8fDEyOjAwfHx8MTU6MDB8MTp8MHwxfDIiO3M6MzoiY2hzIjtzOjc6IjU4N3gzMDAiO3M6MzoiY2hnIjtzOjIyOiI0LjM0NzgyNjA4Njk1NjUsNTAsMSwwIjt9&h=b598040ac432109f1a73e0a45d9d1674";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:5:"admin";}

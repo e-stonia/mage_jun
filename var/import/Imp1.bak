@@ -1,0 +1,2 @@
+store,websites,attribute_set,categories,type,sku,name,price,description,short_description,image,weight,has_options,is_in_stock,qty,disabled,status,options_container,tax_class_id,Size:drop_down:1,visibility
+admin,base,Jungent,VEED,simple,12346,PRODUCT S00 90,99,Test Product description for default store,Test Product 2,http://www.fastcompany.com/files/feature-water2LG.jpg,1,1,1,10,No,Enabled,Block after Info Column,Taxable Goods,,"Catalog, Search"
