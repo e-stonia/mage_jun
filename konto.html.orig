@@ -1,0 +1,264 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="et" lang="et"> 
+<head> 
+<title>Minu konto</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="description" content="Jungent Foodservice" /> 
+<meta name="keywords" content="Jungent Foodservice" /> 
+<meta name="robots" content="INDEX,FOLLOW" /> 
+<link rel="icon" href="file:///skin/frontend/default/jungent/favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="file:///skin/frontend/default/jungent/favicon.ico" type="image/x-icon" /> 
+ 
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://tellimine.jungent.ee/js/blank.html';
+    var BLANK_IMG = 'http://tellimine.jungent.ee/js/spacer.gif';
+//]]>
+</script>
+<![endif]--> 
+ 
+<link rel="stylesheet" type="text/css" href="http://tellimine.jungent.ee/skin/frontend/default/jungent/css/reset.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="http://tellimine.jungent.ee/skin/frontend/default/jungent/css/style.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="http://tellimine.jungent.ee/skin/frontend/default/jungent/css/font.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="http://tellimine.jungent.ee/skin/frontend/base/default/css/widgets.css" media="all" /> 
+<script type="text/javascript" src="http://tellimine.jungent.ee/js/jquery.min.js"></script> 
+<script type="text/javascript" src="http://tellimine.jungent.ee/js/custom.js"></script> 
+<script type="text/javascript" src="http://tellimine.jungent.ee/js/menu.js"></script> 
+<script type="text/javascript" src="http://tellimine.jungent.ee/js/varien/weee.js"></script> 
+<script type="text/javascript" src="http://tellimine.jungent.ee/skin/frontend/default/default/js/jquery-1.4.2.min.js"></script> 
+<!--[if gt IE 7]>
+<link rel="stylesheet" type="text/css" href="http://tellimine.jungent.ee/skin/frontend/default/jungent/css/ie.css" media="all" />
+<![endif]--> 
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://tellimine.jungent.ee/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://tellimine.jungent.ee/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]--> 
+ 
+<script type="text/javascript"> 
+//<![CDATA[
+optionalZipCountries = ["EE"];
+//]]>
+</script> 
+ 
+ 
+ <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="file:///skin/frontend/default/jungent/public/css/ie.css" />
+    <![endif]--> 
+ 
+ 
+</head> 
+       
+<body> 
+ 
+<div class="gradient"> 
+        <div class="pattern"> 
+            <div class="orangeline"></div> 
+            <div class="main"> 
+            <div class="canvas"> 
+                <div class="header"> 
+          <a href='file:///' class="logo"></a> 
+<ul class="menu">
+
+<li id="las_menu" class="first"><a href="file:///sales/order/lastordered"><strong></strong><span>TELLIMINE</span></a></li>
+
+<li id="tellimine_menu"><a href="file:///sales/order/historyitems"><strong></strong><span>AJALUGU</span></a></li>
+
+<li><a id="client_menu" href="file:///customer/account/"><strong></strong><span>KLIENDI  INFO</span></a></li>
+
+<li><a id="category_menu" href="file:///catalog/category/view/id/2"><strong></strong><span>OTSING</span></a></li>
+
+<li><a id="shipping_menu" href="file:///shipping.html"><strong></strong><span>KOHALEVEDU</span></a></li>
+
+</ul>    
+                <div class="headertext"> 
+                     <h2>JUNGENT O&Uuml;</h2>
+
+<p>Paldiski mnt. 11, 10137 TALLINN           <br /> Telefon: (+372) 666 3800          <br /> E-post: info@jugent.ee</p> 
+                </div> 
+</div>                       
+                
+                <div class="center cols-2-left"> 
+<!--                COL-1--> 
+                <div class="col-1"> 
+                                   
+ 
+                        <div class="block block-categories">           
+                            <div class="block-header"></div> 
+                            <div class="block-content"> 
+                            <a href='http://tellimine.jungent.ee/catalog/special/' class="narrow_button">ERIPAKKUMISED</a> 
+                            <a href='http://tellimine.jungent.ee/catalog/category/view/id/2' class="narrow_button">UUED TOOTED</a> 
+                                <ul> 
+                                                                                                    <li ><a  href='http://tellimine.jungent.ee/maiustused.html'> maiustused  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/mineraalvesi.html'> mineraalvesi  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/puljong-ja-kastmed.html'> puljong ja kastmed  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/kohv.html'> kohv  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/mantinga.html'> mantinga  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/kiirtoit.html'> kiirtoit  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/pizza.html'> pizza  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/petfood.html'> petfood  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/marjad.html'> marjad  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/kakao-ja-tee.html'> kakao ja tee  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/snack.html'> snack  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/mahl.html'> mahl  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/koogiviljad.html'> köögiviljad  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/tordid-ja-koogid.html'> tordid ja koogid  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/kartulitooted.html'> kartulitooted  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/lisavarustus.html'> lisavarustus  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/5l.html'> 5L  </a></li>   
+                                                                    <li ><a  href='http://tellimine.jungent.ee/2l.html'> 2L  </a></li>   
+                                                                </ul> 
+                            </div> 
+                            <div class="block-footer"></div> 
+                        </div> 
+ 
+ 
+   
+                       </div> 
+ 
+<!--                END OF COL1--> 
+ 
+<!--                COL-2--> 
+                <div class="col-2"> 
+                        <div class="block"> 
+                            <div class="block-header"></div> 
+                            <div class="block-content"> 
+									
+                                                                            
+
+<div style="float:left">
+
+Tere, Kaspar</div>
+
+<div class="button" style="float: right;" onclick="document.location ='/customer/account/logout/' "><b></b><span>Logi välja</span>
+
+</div>
+
+<div style="clear:both"></div>
+
+<div class="hr"></div>
+
+<div class="my-account"><div class="dashboard"> 
+    <div class="page-title"> 
+        <h1>Konto avaleht</h1> 
+        
+    </div> 
+        <div class="welcome-msg"> 
+    <p class="hello"><strong>Tere, Kaspar!</strong></p> 
+    <p>Minu konto avalehel on Teil võimalus saada lühiülevaate oma viimastest tegevustest ja uuendada infot.</p> 
+</div> 
+        <div class="box-account box-info"> 
+        
+        
+    
+    <br/> 
+    <br/> 
+        <div class="box"> 
+            <div class="box-title"> 
+                <h1>Kliendi info</h1> 
+                <div class="hr"></div> 
+            </div> 
+            <div class="box-content"> 
+                <p> 
+                    <strong>Firma nimi:</strong> COMPANY NAME<br /> 
+                    <strong>Kasutajanimi:</strong> 
+                    test@e-stonia.co.uk<br /> 
+                    <strong>Jungenti müügiesindaja:</strong> John Smith (T: 6466474 & <a href="#">john@jungent.ee</a>)<br />
+					<strong>Kliendikood Axaptas:</strong> AXA88888</p> 
+					
+					<a href="http://tellimine.jungent.ee/customer/address/edit/id/6/">
+					<strong>Muuda oma parooli</strong></a> <br />Kui soovid muuta oma tarneaadressi või muid andmeid, siis palun võta ühendust oma müügiesindajaga.
+            </div> 
+        </div> 
+        
+   
+    
+   
+ 
+        
+        
+    
+        <br/> 
+        <table width="100%"> 
+        
+            <tr> 
+                
+            
+                <td> 
+                
+                 <div >                              
+                <h2>Tarneaadress</h2> 
+                <div class="hr"></div> 
+                <address> 
+                    Kaspar Palgi-Unt<br/>
+
+KMR Holding OÜ<br />
+
+Raekoja plats 11-1<br />
+
+
+
+
+
+
+
+Tartu,  51004<br/>
+
+Eesti<br/>
+
+T: 52 888 46</address>
+				
+            </div> 
+                </td> 
+            </tr> 
+        </table> 
+ 
+ 
+    </div> 
+            <br/> 
+<br/> 
+ 
+<h1>Tellimused kuude lõikes</h1> 
+<div class="hr"></div> 
+<br/>         
+ 
+<ul class="monthes" id='monthes'> 
+ 
+</ul> 
+ 
+    
+    
+    
+ 
+                            
+ 
+ 
+ 
+</div> 
+ 
+ 
+<script type=""> 
+$(document).ready(function(){
+    $('#client_menu').addClass('active');
+    
+ 
+ 
+    
+});
+</script></div>                            </div> 
+                            <div class="block-footer"></div> 
+                        </div> 
+                    </div> 
+                
+<!--                END OF COL2--> 
+ 
+                
+            </div> 
+            </div> 
+        </div> 
+    </div> 
+ 
+                
+</body> 
+</html> 
