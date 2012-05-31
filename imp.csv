@@ -1,0 +1,2 @@
+store,websites,attribute_set,categories,type,sku,name,price,description,short_description,image,has_options,is_in_stock,qty,disabled,status,tax_class_id,visibility,unit_quantity,manufacturer,tuup,axapta_code,tax_value
+admin,base,Jungent,VEED,simple,12346,rrrrPRODUCT sugavma S00 90,99,Test Product description for default store,Test Product 2,http://www.fastcompany.com/files/feature-water2LG.jpg,1,1,10,No,Enabled,Taxable Goods,"Catalog","34","Evian","tavakaup","ax123","9"
