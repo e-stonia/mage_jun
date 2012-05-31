@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <print_index_index>
+        <reference name="content">
+            <remove name="left"/>
+		<remove name="header"/>
+		<remove name="head"/>
+		<remove name="footer_links"/>
+		<remove name="top.menu"/>
+            <block type="manager/manager" name="manager" template="print/print.phtml" />
+        </reference>
+    </print_index_index>
+</layout> 

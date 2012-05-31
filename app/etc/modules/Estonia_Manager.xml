@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Estonia_Manager>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Estonia_Manager>
+    </modules>
+</config> 

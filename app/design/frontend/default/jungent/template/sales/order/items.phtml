@@ -1,0 +1,94 @@
+
+<h1><?=$this->__('Kulude Tellimuste ajalugu')?></h1>
+
+<div class="hr"></div>
+
+
+<a href='<?=Mage::getBaseUrl()?>sales/order/historyitems2'><?=$this->__('Tellimuste ajalugu kogustes')?></a>
+&nbsp;
+&nbsp;
+<span><?=$this->__('Kulude Tellimuste ajalugu')?></span>       
+<br/>                              
+<br/>                         
+<?php
+
+    $monthes = array(
+        "01.".(date("Y")-1),
+        "02.".(date("Y")-1),
+        "03.".(date("Y")-1),
+        "04.".(date("Y")-1),
+        "05.".(date("Y")-1),
+        "06.".(date("Y")-1),
+        "07.".(date("Y")-1),
+        "08.".(date("Y")-1),
+        "09.".(date("Y")-1),
+        "10.".(date("Y")-1),
+        "11.".(date("Y")-1),
+        "12.".(date("Y")-1),
+        "01.".date("Y"),
+        "02.".date("Y"),
+        "03.".date("Y"),
+        "04.".date("Y"),
+        "05.".date("Y"),
+        "06.".date("Y"),
+        "07.".date("Y"),
+        "08.".date("Y"),
+        "09.".date("Y"),
+        "10.".date("Y"),
+        "11.".date("Y"),
+        "12.".date("Y"),
+    );
+    
+                                            
+    $needmonthes = array_slice($monthes, date('m'),12);
+    
+?>
+                         <div class="colored table items history">
+                                    <table>
+                                        <thead>
+                                            <th class="first" colspan="2"><?=$this->__('Toode')?></th>
+                                            <th class="last" colspan="13"><?=$this->__(' 12 kuu tellimuste ajalugu Eurodes')?></th>
+                                    </thead>
+                                        <tbody>
+                                         <tr class="first head ">
+                                                <td class="first grey"><?=$this->__('Toode')?></td>
+                                                <td class="grey"><?=$this->__('Kategooria')?></td>
+                                                <td class=""><?=$this->__('Kokku')?></td>
+                                                
+                                                <?php $count=0;  foreach($needmonthes as $date): $count++;?>
+                                                <td <?php if ($count==12):?> class='last' <?php endif;?>><?=$date?></td>    
+                                                <?php endforeach;?>
+                                             </tr>
+                                             
+                                             <?php $countb = 0; foreach($this->data as $key=>$item): $countb++?>
+                                             
+                                             
+                                             <?php
+                                             
+                                                $product = Mage::getModel('catalog/product')->load($key);
+                                                $cat = $product->getCategoryIds();
+                                                $category = Mage::getModel('catalog/category')->load($cat[0])->getName() 
+                                                //$category = $product->getCategory()->getName();
+                                              ?>
+                                              <tr class="<?php if($countb==count($this->data)):?>last<?php endif;?>">
+                                                <td class="first left"><?=$item['name']?>
+                                                <div class="himage"><img src='<?php echo $this->helper('catalog/image')->init($product, 'image')->resize(265); ?>' /></div>
+                                                </td>
+                                                <td class="left"><?=$category?></td>
+                                                <td><?=number_format(floatval(@$item['total']),2,","," ");?></td>
+                                                                                      
+                                                    <?php $count=0;  foreach($needmonthes as $date): $count++;?>  
+                                                    <td <?php if ($count==12):?> class='last' <?php endif;?>><?=number_format(floatval(@$item['dates'][$date]['price']),2,","," "); 
+                                                    ?></td>    
+                                                    <?php endforeach;?>
+                                             </tr>      
+                                                
+                                             <?php endforeach;?>
+                                             
+                                        </tbody>
+                                    </table>
+                                </div>
+<script>
+    $('#tellimine_menu a').addClass('active');
+    
+</script>

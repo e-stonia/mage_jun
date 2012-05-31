@@ -1,0 +1,19 @@
+<?php $_item = $this->getItem();
+
+
+?>
+                                        <td class="first center">
+                                            <a  onclick="deleteFromCart(<?=$_item->getId()?>)" class="delete"></a>
+                                            
+                                        </td>
+                                        <td width="50%"><?php echo $this->htmlEscape($this->getProductName()) ?></td>
+                                        <td>
+                                            <?php echo  $this->helper('catalog/product_price')->format($_item->getCalculationPrice())?>
+                                        </td>
+                                        <td>
+                                           <input type='hidden' name='qty' value='<?php echo $this->getQty() ?>'/>
+                                            <input type='hidden' name='price' value='<?=$_item->getPrice()?>'/>
+                                            <input  type="text" onkeyup="updateCart(this,<?=$_item->getId()?>)" value="<?php echo $this->getQty() ?>" /> 
+                                        </td>
+                                        <td class="last rowtotal" id='row_total_<?=$_item->getId()?>'><?php echo $this->helper('catalog/product_price')->format($_item->getRowTotal())?></td>
+                                    

@@ -1,0 +1,42 @@
+<?php
+//$categories = Mage::getModel('catalog/category')
+//                    ->getCollection()
+//                    ->addAttributeToSelect('*')
+//                    ->addIsActiveFilter();
+?>
+<?php
+/* foreach($categories as $category):?>
+  <div><?=$category->getName()?></div>
+  <?php endforeach; */
+//d($this->getStoreCategories());  
+
+$rootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+$_category = Mage::getModel('catalog/category')->load($rootCategoryId);
+$_subcategories = $_category->getChildrenCategories();
+?>
+
+
+<div class="block block-categories">           
+    <div class="block-header"></div>
+    <div class="block-content">
+        <a href='<?= Mage::getBaseUrl() ?>catalog/special/' class="narrow_button">ERIPAKKUMISED</a>
+        <a href='<?= Mage::getBaseUrl() ?>catalog/category/view/id/2' class="narrow_button">UUED TOOTED</a>
+        <ul> 
+<?php //$curCategory = Mage::registry('current_category'); ?>
+<?php //foreach ($_subcategories as $category): ?>
+    <?php
+    $write = Mage::getSingleton('core/resource')->getConnection('core_write');
+        $readresult=$write->query("SELECT value FROM catalog_product_entity cpe, catalog_product_entity_varchar cpev WHERE cpe.created_at >= DATE_SUB(NOW(), INTERVAL 3 MONTH) and cpe.entity_id=cpev.entity_id and cpev.attribute_id='60' order by created_at DESC ");//select from db last 5 post
+        while ($row = $readresult->fetch() ) {
+?>
+                <li> <?= $row['value']; ?> </li>   
+<?
+        }
+
+?>
+        </ul>
+    </div>
+    <div class="block-footer"></div>
+</div>
+
+

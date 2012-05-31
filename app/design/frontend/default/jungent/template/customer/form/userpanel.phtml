@@ -1,0 +1,10 @@
+<?php if ($this->helper('customer')->isLoggedIn() ):?>
+
+<div style="float:left">
+<?=$this->__('Tere, %s',Mage::getSingleton('customer/session')->getCustomer()->getName())?>
+</div>
+<div class="button" style="float: right;" onclick="document.location ='/customer/account/logout/' "><b></b><span><?=$this->__('Logout')?></span>
+</div>
+<div style="clear:both"></div>
+<div class="hr"></div>
+<?php endif;?>

@@ -1,0 +1,48 @@
+<br/>
+<br/>
+
+<h1><?=$this->__('Monthes')?></h1>
+<div class="hr"></div>
+<br/>         
+
+<ul class="monthes" id='monthes'>
+<?php foreach($this->data as $month=>$items):?>
+<li><a href='#'><?=$month?></a>
+<ul>
+<div class="colored table items"> 
+<table  width="100%">
+<thead>
+    
+	
+        <th class="first"><?=$this->__('ID')?></th>
+        <th><?=$this->__('Created At')?></th>
+            <th><?=$this->__('Total')?></th>
+        </th>
+</thead>
+<tbody>
+<?php $totalcount = count($items); if($items): $i=0;?>
+    <?php foreach($items as $item): $i++?>
+   
+            <tr <?php if ($i==1) 
+            { echo ' class="first" ';}
+            elseif($i==$totalcount)
+                echo ' class="" '
+            ?>>
+            	<td>
+                	<a style="background: none; color: blue;" href='/sales/order/view/order_id/<?=$item['entity_id']?>'><?=$item['increment_id']?></a>
+            	</td>
+            	<td><?=$item['created_at']?></td>
+            	
+					<td class="last"><?=number_format($item['grand_total'],2)?></td>
+                
+            </tr>
+    <?php endforeach; endif;?>
+</tbody>
+</table>
+</div>
+</ul>
+</li>
+<?php endforeach;?>
+
+</ul>
+

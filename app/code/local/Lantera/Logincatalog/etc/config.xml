@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+        <Lantera_Logincatalog>
+            <version>1.1.9</version>
+        </Lantera_Logincatalog>
+</modules>
+        <models>
+            <logincatalog>
+                <class>Lantera_Logincatalog_Model</class>
+            </logincatalog>
+        </models>
+    <frontend>
+        <events>
+                        
+            <controller_action_predispatch>
+                <observers>
+                    <controller_action_before>
+                        <class>Lantera_Logincatalog_Model_Observer</class>
+                        <method>hookToControllerActionPreDispatch</method>
+                    </controller_action_before>
+                </observers>
+            </controller_action_predispatch>
+            <controller_action_postdispatch>
+                <observers>
+                    <controller_action_after>
+                        <class>Lantera_Logincatalog_Model_Observer</class>
+                        <method>hookToControllerActionPostDispatch</method>
+                    </controller_action_after>
+                </observers>
+            </controller_action_postdispatch>
+
+
+        </events>
+    </frontend>
+    
+    
+     <global>
+        <fieldsets>
+            <customer_account>
+                <account_manager><create>1</create><update>1</update></account_manager>
+            </customer_account>
+        </fieldsets>
+        
+        <resources>
+            <customer_setup>
+                <setup>
+                    <module>Lantera_Logincatalog</module>
+                    <class>Lantera_Logincatalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </customer_setup>
+            <customer_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </customer_write>
+            <customer_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </customer_read>
+        </resources>
+    </global>
+</config>

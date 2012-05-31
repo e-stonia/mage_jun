@@ -1,0 +1,86 @@
+<?php  $_order = $this->getOrder() ?>
+<?php 
+$storeId    = Mage::app()->getStore()->getId();
+
+/*
+        $product    = Mage::getModel('catalog/product');
+        $todayDate  = $product->getResource()->formatDate(time());
+        $products   = $product->setStoreId($storeId)->getCollection()
+            ->addAttributeToSelect(array('name', 'price', 'small_image','manufacturer'), 'left')
+            ->addAttributeToSelect(array('special_price', 'special_from_date', 'special_to_date'), 'left')
+            ->addAttributeToSelect('status')
+            ->addAttributeToSort('special_to_date','desc')
+            
+        ; 
+        */
+
+         
+$todayDate  = Mage::app()->getLocale()->date()->toString(Varien_Date::DATETIME_INTERNAL_FORMAT);
+ 
+$products = $_order->getItemsCollection();
+
+
+                                                      
+        
+?>
+
+
+<?php if(Mage::getSingleton('customer/session')->isLoggedIn()): ?> 
+<div id='cart_current'>  
+    <?=$this->getChildHtml('cart_current')?>
+</div>
+<?php else:?>
+    <?=$this->getChildHtml('customer_form_login')?>
+<?php endif;?>
+
+<div class="hr"></div>
+<h2>Eripakkumised:</h2>
+                                
+<div class="colored table items">
+    <table>
+        <thead>
+            <th class="first">Toote nr.</th>
+            <th>Toote nimetus</th>
+            <th>Ühiku kogus</th>
+            <th>Ühiku hind</th>
+            <th>Soodustus</th>
+            <th>KM-ta</th>
+            <th>Brand</th>
+            
+            <th class="last">Tüüp</th>
+        </thead>
+        <tbody>
+            <?php 
+                $totalcount = count($products);
+            if($products): $i=0;?>
+            <?php foreach($products as $product): $i++;
+                
+                  $_product = Mage::getModel('catalog/product')->load($product->getProductId());
+                  
+                  
+             ?>
+                    <tr <?php if ($i==1) 
+                                            { echo ' class="" ';}
+                                            elseif($i==$totalcount)
+                                                echo ' class="last" '
+                                            ?>>
+                            <td class="first"><?=$_product->getSku()?></td>   
+                            <td class="left" width="40%"><?=$_product->getName()?>
+                            <div class="himage"><img src='<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(265); ?>' /></div>
+                            </td>
+                            <td><?=$_product->getData('unit_quantity')?></td>  
+                            <td><?=number_format($_product->getSpecialPrice(),2)?></td> 
+                            <td><?php 
+                               echo number_format(100-(($_product->getSpecialPrice()/$_product->getPrice())*100),2);
+                            ?>%</td>
+                            <td><?=number_format($_product->getPrice(),2)?></td>
+                            <td><?=$_product->getManufacturer();?></td> 
+
+                                                <td class="last">
+                                                    <div class="types type_<?=$_product->getTuup()?>"></div> 
+                            </td>
+                  </tr>                
+            <?php endforeach; endif;?>
+            </tbody>
+    </table>
+</div>

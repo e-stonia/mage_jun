@@ -1,0 +1,26 @@
+<h1><?=$this->__('Checkout')?></h1> 
+<div id='cart_current'>
+<?=$this->getChildHtml('cart_current')?>
+</div>
+<div class='hr'></div>
+<form id='submitOrder' action="/checkout/onepage/saveOrder" method="POST">
+
+<?php if (Mage::helper("checkout/cart")->getItemsCount()):?>
+
+<table>
+	<tr>
+		<td><label><h2><?=$this->__('Comment')?></h2></label></td>
+	</tr>
+	<tr>
+		<td><textarea name="usercomment" class="submitcomment"></textarea></td>
+	</tr>
+</table>
+	<br/>
+<button onclick="$('#submitcomment').submit();" class="button"><b></b><span><?=$this->__('Kinnita tellimus')?></span></button>
+	<button onclick="window.location.href = '<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>checkout/onepage/clear/';return false;" class="button">
+    <b></b><span><?=$this->__('Tühjenda ostukorv')?></span></button>
+<button onclick="javascript:history.back();return false;" class="button"><b></b><span><?=$this->__('Tagasi')?></span></button>
+</form>
+<?php else:?>
+	<h3><?=$this->__('You havent any items in your cart. Please continue shopping')?></h3>
+<?php endif;?>

@@ -1,0 +1,75 @@
+ <div class="filter">
+                                    <?php /*
+                                  <form action="" id='filter_form' method="get">
+                                    <table class="filTable">
+                                        <tr>
+                                        <td>
+                                          <label>FILTREERI:&nbsp;</label>    
+                                        </td>
+                                            <td class="select_1">
+                                            <select>
+                                                   <option>- Kõik tootegrupid -</option>
+                                                </select>
+                                            </td>
+                                            <td class="select_2">
+                                            <select>
+                                                <option>- Kõik brändid -</option>
+                                            </select>
+                                            </td>
+                                            <td>
+                                               <label>OTSI toodet:&nbsp;</label>
+                                            </td>
+                                            <td>
+                                                 <input onclick="
+                                                    if(this.value=='Tootenimi / tootekood / EAN')this.value='';" name="q" value="Tootenimi / tootekood / EAN" type="text"  />
+                                            </td>
+                                            <td>
+                                            <img onclick="$('#filter_form').submit()" src="<?=$this->getSkinUrl()?>/images/search.png" style="float: right;margin-top: 3px;" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    </form>  
+                                    
+                                    <?php */?>
+
+                                     <table class="filTable">
+                                        <tr>
+                                        <td>
+                                          <label>FILTREERI:&nbsp;</label>    
+                                        </td>
+                                    
+                                        <?php  $_filters = $this->getFilters();
+                                        $i=0;
+                                        
+                                         ?>
+                                        <?php foreach ($_filters as $_filter): $i++;
+                                        
+                                        ?>
+                                        <td class="select_<?=$i?>">
+                                            <?php echo $_filter->getHtml() ?>
+                                              </td>
+                                        <?php endforeach; ?>
+                                    
+                                    <form method="get" id="filter_form" action="">
+                                    <td>
+                                    <?php 
+                                    $queryString = "Tootenimi / tootekood / EAN";
+                                    if ($_GET['q'])
+                                    $queryString = $_GET['q'];
+                                    ?>
+                                               <label>OTSI toodet:&nbsp;</label>
+                                            </td>
+                                            <td>
+                                                 <input type="text" value="<?=$queryString?>" name="q" onclick="                                                    if(this.value=='<?=$queryString?>')this.value='';">
+                                            </td>
+                                            <td>
+                                            <img style="cursor:pointer;float: right; margin-top: 3px;" src="<?=$this->getSkinUrl()?>/images/search.png"  onclick="$('#filter_form').submit()">
+                                            </td>
+                                    </form>
+                                    
+                                    </tr>
+                                    </table>
+                                </div>
+                                
+                                
+                                 

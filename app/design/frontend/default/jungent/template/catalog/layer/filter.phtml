@@ -1,0 +1,40 @@
+<?php $url  = Mage::getBaseUrl();
+$url = substr($url, 0,strlen($url)-1);
+?>
+
+<select class="filter_a">
+<option url= '<?=$url.$_SERVER['REDIRECT_URL']?>'><?=$this->getA()?></option>
+<?php $filterName = 0; foreach ($this->getItems() as $_item):
+
+
+ ?>
+   <option <?php if(
+   strpos( $_item->getUrl(), "cat=".$_GET['cat']) && $_GET['cat'] &&  $_item->getName()=='Category'
+    ):?>
+     selected='1' 
+   <?php  endif;?>
+    url = '<?php echo $this->urlEscape($_item->getUrl()) ?>'><?= $_item->getLabel()?></option>
+<?php $filterName = $_item->getName(); endforeach ?>
+<?php if(
+   $filterName=='Manufacturer'  && $_GET['manufacturer']
+    ):?>
+      <option selected="1">
+        <?=$this->getCur()?>
+      </option>  
+    <?php endif;?>
+
+</select>
+
+<script type="text/javascript">
+<!--
+var url = "<?php  echo $url.$_SERVER['REQUEST_URI'];?>";
+
+$('.filter_a option').each(function(){
+	
+	if (url==$(this).attr('url'))
+	{
+		$(this).attr('selected',true);	
+	}	
+});
+//-->
+</script>

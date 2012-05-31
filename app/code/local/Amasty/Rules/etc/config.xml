@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright   Copyright (c) 2009-11 Amasty
+ */
+-->
+<config>
+    <modules>
+        <Amasty_Rules>
+            <version>1.1.0</version>
+        </Amasty_Rules>
+    </modules>
+
+    <global>
+        <helpers>
+            <amrules>
+                <class>Amasty_Rules_Helper</class>
+            </amrules>
+        </helpers>
+
+        <events>
+            <salesrule_validator_process>
+                <observers>
+                    <amasty_rules_model_observer>
+                        <type>singleton</type>
+                        <class>Amasty_Rules_Model_Observer</class>
+                        <method>handleValidation</method>
+                    </amasty_rules_model_observer>
+                </observers>
+          </salesrule_validator_process>
+          <adminhtml_block_salesrule_actions_prepareform>
+                <observers>
+                    <amasty_rules_model_observer>
+                        <type>singleton</type>
+                        <class>Amasty_Rules_Model_Observer</class>
+                        <method>handleFormCreation</method>
+                    </amasty_rules_model_observer>
+                </observers>
+          </adminhtml_block_salesrule_actions_prepareform>
+        </events>
+    </global>
+</config>

@@ -1,0 +1,41 @@
+<?php
+//$categories = Mage::getModel('catalog/category')
+//                    ->getCollection()
+//                    ->addAttributeToSelect('*')
+//                    ->addIsActiveFilter();
+?>
+<?php
+/* foreach($categories as $category):?>
+  <div><?=$category->getName()?></div>
+  <?php endforeach; */
+//d($this->getStoreCategories());  
+
+$rootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+$_category = Mage::getModel('catalog/category')->load($rootCategoryId);
+$_subcategories = $_category->getChildrenCategories();
+?>
+
+
+<div class="block block-categories">           
+    <div class="block-header"></div>
+    <div class="block-content">
+        <a href='<?= Mage::getBaseUrl() ?>catalog/special/' class="narrow_button">ERIPAKKUMISED</a>
+        <a href='<?= Mage::getBaseUrl() ?>catalog/category/view/id/2' class="narrow_button">UUED TOOTED</a>
+        <ul> 
+<?php $curCategory = Mage::registry('current_category'); ?>
+<?php foreach ($_subcategories as $category): ?>
+    <?php
+    $catData = Mage::getModel('catalog/category')->load($category->getId())->getIncludeInMenu();
+                                    if($catData != "1"){
+                                        continue;
+                                    }
+    ?>
+                <li><a <?php if ($curCategory && $curCategory->getId() == $category->getId())
+                echo ' class="active" ' ?> href='<?= $category->getUrl() ?>'> <?= $category->getName() ?>  </a></li>   
+            <?php endforeach; ?>
+        </ul>
+    </div>
+    <div class="block-footer"></div>
+</div>
+
+

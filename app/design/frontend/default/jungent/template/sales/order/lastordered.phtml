@@ -1,0 +1,69 @@
+
+<div id='cart_current'>
+<?=$this->getChildHtml('cart_current')?>
+</div>
+
+
+<h2><?=$this->__('Viimati tellitud tooted:')?></h2> 
+<div class="hr"></div>
+<br/>
+
+<div class="colored table items"> 
+<table  width="100%">
+<thead>
+    
+      <th class="first">Toote nr.</th>
+        <th><?=$this->__('Toote nimetus')?></th>
+         <th><?=$this->__('Brand')?></th> 
+        <th><?=$this->__('Ühiku kogus')?></th>
+        <th><?=$this->__('Ühiku hind')?></th> 
+        <th>Kogus</th>
+
+        <th class="last">
+            <?=$this->__('Tüüp')?>
+        </th>
+</thead>
+<tbody>
+<?php $totalcount = count($this->products); if($this->products): $i=0;?>
+    <?php foreach($this->products as $item): 
+        $_product = Mage::getModel('catalog/product')->load($item->getProductId());
+    if($_product->getName() == NULL){
+        continue;
+    }
+    $i++;?>
+            <tr <?php if ($i==1) 
+            { echo ' class="first" ';}
+            elseif($i==$totalcount)
+                echo ' class="" '
+            ?>>
+                
+                <td class="first"><?=$_product->getSku()?></td>                                                                             
+                <td class="left" width="40%"><?=$_product->getName()?>
+                
+                <div class="himage"><img src='<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(265); ?>' /></div>
+                </td>
+                <td><?=$_product->getAttributeText('manufacturer')?></td>  
+                <td width="100px"><?=$_product->getData('unit_quantity')?></td>
+                <td>
+                    <?=number_format($_product->getFinalPrice(),2)?>  
+                </td> 
+                
+                <td width="11%" class="left"><input  type="text" name='qty'/>
+                                                    <input type="hidden" name='product_id' value='<?=$_product->getId()?>' />
+                                                <div class="add" style="float: left;"></div></td>
+                <td class="last">
+                    <div class="types type_<?=$_product->getTuup()?>"></div> 
+                </td>
+            </tr>
+    <?php endforeach; endif;?>
+</tbody>
+</table>
+</div>
+
+
+<script type="">
+$(document).ready(function(){
+    $('#las_menu a').addClass('active');    
+});
+
+</script>

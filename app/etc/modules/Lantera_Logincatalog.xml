@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lantera_logincatalog>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Lantera_logincatalog>
+    </modules>
+</config>

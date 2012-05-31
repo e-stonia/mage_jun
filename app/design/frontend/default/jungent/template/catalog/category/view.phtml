@@ -1,0 +1,23 @@
+<?php
+    $_helper    = $this->helper('catalog/output');
+    $_category  = $this->getCurrentCategory();
+    $_imgHtml   = '';
+    if ($_imgUrl = $_category->getImageUrl()) {
+        $_imgHtml = '<p class="category-image"><img src="'.$_imgUrl.'" alt="'.$this->htmlEscape($_category->getName()).'" title="'.$this->htmlEscape($_category->getName()).'" /></p>';
+        $_imgHtml = $_helper->categoryAttribute($_category, $_imgHtml, 'image');
+    }
+?>
+
+<div id='cart_current'>
+<?=$this->getChildHtml('cart_current')?>
+</div>
+
+<div class="hr"></div>
+<h1><?=$this->__('Tellimine')?></h1>
+                                
+<?=$this->getChildHtml('layerselect')?>
+
+<?php echo $this->getProductListHtml() ?> 
+<script>
+    $('#category_menu').addClass('active');
+</script>

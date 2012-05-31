@@ -1,0 +1,47 @@
+<?php 
+ 
+ 
+ 
+?>
+                                <div class="table colored">
+                                <table>
+                                    <thead>
+                                        <th class="first">Eemalda</th>
+                                        <th>Toote nimetus</th>
+                                        <th>Ühiku hind 
+(käibemaksuta)</th>
+                                        <th>Kogus</th>
+                                        <th class="last">Kokku</th>
+                                    </thead>
+                                    <tbody>
+                                  <?php 
+                                  $count = count($this->getItems());
+                                  $i=0;
+                                  foreach($this->getItems() as $_item):  $i++;?>
+                                    <tr <?php if ($i==1) 
+                                    { echo ' class="first" ';}
+                                    elseif($i==$count)
+                                        echo ' class="" '
+                                    ?>>
+                                       <?php echo $this->getItemHtml($_item) ?>
+                                    </tr>
+                                    <?php endforeach ?>
+                                       </tbody>
+                                </table>
+                                </div>
+                                <div class="total">
+                                    <table>
+                                    <tr>
+                                       
+                                        <td colspan="2" width="240px" class="right"><b>SUMMA KOKKU:</b></td>
+                                        <td width="41px"><b id='totalInCart'>
+                                            <?php echo $this->helper('checkout')->formatPrice(Mage::getSingleton('checkout/cart')->getQuote()->getGrandTotal()); ?>
+                                        </b></td>
+                                    </tr>
+                                    </table>
+                                   
+                                </div>
+                                
+               
+               
+               

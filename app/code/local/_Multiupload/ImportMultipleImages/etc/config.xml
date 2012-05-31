@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Multiupload_ImportMultipleImages>
+            <version>0.1.0</version>
+        </Multiupload_ImportMultipleImages>
+    </modules>
+    <global>
+        <models>
+            <catalog>
+                <rewrite>
+                    <!-- Override Mage_Catalog_Model_Convert_Adapter_Product -->
+                    <convert_adapter_product>Multiupload_ImportMultipleImages_Model_Convert_Adapter_Product</convert_adapter_product>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>

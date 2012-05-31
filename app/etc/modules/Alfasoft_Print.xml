@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Alfasoft_Print>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Alfasoft_Print>
+    </modules>
+</config> 

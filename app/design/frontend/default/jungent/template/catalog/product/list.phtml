@@ -1,0 +1,171 @@
+
+
+<?php
+    $_productCollection=$this->getLoadedProductCollection();
+    $_helper = $this->helper('catalog/output');
+    
+    //$attributes = array();
+//    
+//                                    
+//    if (@$_GET['q'])
+//    {
+//        $attributes[] = 
+//          array('attribute'=>'name', 'like'=>'%'.$_GET['q'].'%');
+//    }
+//    
+//    
+//    if (count($attributes)>0)
+//        {
+//            
+//            $_productCollection = $_productCollection->addAttributeToFilter($attributes);
+//            $_productCollection = $_productCollection->load();
+//        }
+    
+    
+    
+?>
+
+
+<?php 
+
+    $currCat = Mage::registry('current_category');
+    //$collection = Mage::getModel('catalog/category')->getCategories($currCat->getEntityId());
+?>
+
+
+<?php /* if($_productCollection->count()): ?>  
+    <?php foreach ($_productCollection as $_product): ?> 
+         <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped; ?>"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></a>
+    <?php endforeach;?>
+<?php endif; */?>
+
+
+
+  <div class="colored table items">
+                                    <table>
+                                        <thead>
+                                            <th class="first">Toote nr.</th>
+                                            
+                                            <th>Toote nimetus</th>
+                                            <th>Ühiku kogus</th>
+                                            <th>Ühiku hind</th>
+                                            <th>Brand</th>
+                                            <th>Kogus</th>
+                                            <th class="last">Tüüp</th>
+                                        </thead>
+                                        <tbody>
+                                  <?php if($totalcount = $_productCollection->count()): $i=0;
+                                  $lastCatId = null;
+                                  ?>  
+                                  <?php $counter=0;?>
+                                    <?php foreach ($_productCollection as $_product): $i++ ?>
+                                           
+                                            
+                                            
+                                            <?php $_product->load($_product->getId())?>
+                                                
+                                            <?php 
+                                              $category_id = array_shift($_product->getCategoryIds());
+                                            ?>
+                                            
+                                            <?php if(  $category_id!=$lastCatId 
+                                                  ): 
+                                              ?>  
+                                               
+                                               <?php   
+                                            $cat = Mage::getModel('catalog/category')->load($category_id);
+                                            ?>
+                                                  <tr class="subcat <?php if ($i==1) 
+                                            { echo ' first ';}
+                                            
+                                            ?>">
+                                                    <td colspan="7" class="first last left nohover"><?=$cat->getName()?></td>
+                                                  </tr>
+                                           <?php endif;?>
+                                            
+                                            <?php /*?>
+                                            <tr <?php if ($i==1) 
+                                            { echo ' class="first" ';}
+                                            elseif($i==$totalcount)
+                                                echo ' class="" '
+                                            ?>>
+                                            <?php */?>
+                                            
+                                                <td class="first"><?=$_product->getSku()?></td>   
+                                                <td class="left" width="40%"><?php echo $_product->getName();if($_product->getSoodustus()){ echo ' <span style="color:red;">' . $_product->getSoodustus() . '</span>';}?>
+                                                <div class="himage"><img src='<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(265); ?>' /></div>
+                                                </td>
+                                                <td><?=$_product->getData('unit_quantity')?></td>
+                                                <td> <?=number_format($_product->getFinalPrice(),2)?>  </td>
+                                                <td><?=$_product->getAttributeText('manufacturer')?></td>
+                                                <td width="11%" class="left"><input  type="text" name='qty'/>
+                                                    <input type="hidden" name='product_id' value='<?=$_product->getId()?>' />
+                                                <div class="add" style="float: left;"></div></td>
+                                                <td class="last">
+                                                    <div class="types type_<?=$_product->getTuup()?>"></div> 
+                                                </td>
+                                            </tr>  
+                                            <?php $counter++; $lastCatId = $category_id?>                                                                                 
+                                    <?php endforeach;?>
+                                <?php endif;?>
+                                
+                                
+                                
+                                <?php /* foreach($collection as $cat):?>
+                                
+                                
+                                <?php 
+                                 /*
+                                $category = Mage::getModel('catalog/category')->load($cat->getEntityId());
+                                    $prodCollection = Mage::getResourceModel('catalog/product_collection')->addCategoryFilter($category);
+                                    
+                                   if (count($attributes)>0) 
+                                    $prodCollection->addAttributeToFilter(
+                                       $attributes
+                                    );
+                                ?>
+                                <?php if ($prodCollection): 
+                                $totalcount = $prodCollection->count();
+                                $i=0;?>
+                                <tr class="subcat">
+                                    <td colspan="7" class="first last left nohover"><?=$cat->getName()?></td>
+                                </tr>
+                                <?php foreach ($prodCollection as $_product): $i++ ?>
+                                        
+                                            <tr <?php if ($i==1) 
+                                            { echo ' class="" ';}
+                                            elseif($i==$totalcount)
+                                                echo ' class="last" '
+                                            ?>>
+                                            <?php $_product->load($_product->getId())?>
+                                                <td class="first"><?=$_product->getSku()?></td>   
+                                                <td class="left" width="40%"><?=$_product->getName()?>
+                                                <div class="himage"><img src='<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(265); ?>' /></div>
+                                                </td>
+                                                <td><?=$_product->getData('unit_quantity')?></td>
+                                                <td> <?=number_format($_product->getFinalPrice(),2)?>  </td>
+                                                <td><?=$_product->getAttributeText('manufacturer')?></td>
+                                                <td width="11%" class="left"><input type="text" name='qty'/>
+                                                    <input type="hidden" name='product_id' value='<?=$_product->getId()?>'/>
+                                                <div class="add"></div></td>
+                                                <td class="last">
+                                                    <div class="types type_3"></div> 
+                                                </td>
+                                            </tr>  
+                                                                                 
+                                    <?php endforeach;?>
+                                    <?php endif;?>
+                                    
+                                    
+                                <?php endforeach; */?>
+                                
+
+                                
+                                
+                                               
+                                          
+                                        </tbody>
+                                    </table>
+                                </div>
+<?=$this->getChildHtml('typestable')?>                                                   
+<?=$this->getChildHtml('product_list_toolbar')?>  
